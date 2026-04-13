@@ -209,17 +209,19 @@ async function openProductModal(id, lang) {
   const bodyEl = document.getElementById(bodyId);
 
   const name = lang === "hu" ? product.name_hu : product.name_en;
-  const longText = lang === "hu" ? product.long_hu : product.long_en;
+  const longTextRaw = lang === "hu" ? product.long_hu : product.long_en;
   const bullets = lang === "hu" ? product.bullets_hu : product.bullets_en;
 
   titleEl.textContent = name;
+
+  const longTextHtml = longTextRaw.replace(/\n/g, "<br>");
 
   const bulletsHtml = bullets
     .map((b) => `<li>${b}</li>`)
     .join("");
 
   bodyEl.innerHTML = `
-    <p class="product-modal-description">${longText}</p>
+    <p class="product-modal-description">${longTextHtml}</p>
     ${
       bullets && bullets.length
         ? `<ul class="product-modal-bullets">${bulletsHtml}</ul>`
