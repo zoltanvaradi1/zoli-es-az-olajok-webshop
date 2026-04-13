@@ -1,0 +1,324 @@
+[
+  {
+    "id": "oil-on-guard",
+    "category": "oil",
+    "name_hu": "On Guard védőkeverék (15 ml)",
+    "name_en": "On Guard Protective Blend (15 ml)",
+    "short_hu": "Meleg, fűszeres illat a mindennapi komfort érzetéhez.",
+    "short_en": "Warm, spicy aroma to support a cosy everyday atmosphere.",
+    "long_hu": "Rövid, általános leírás az On Guard keverékről – hogyan illeszthető a napi rutinba, például diffúzorban vagy illatként.",
+    "long_en": "Short, general description of the On Guard blend – how it fits into daily routines, for example in a diffuser or simply as a pleasant scent.",
+    "bullets_hu": [
+      "Meleg, fűszeres illat.",
+      "Otthoni illatosításhoz használható.",
+      "Jól kombinálható citrusos olajokkal."
+    ],
+    "bullets_en": [
+      "Warm, spicy aroma.",
+      "Can be used to scent your home.",
+      "Pairs well with citrus oils."
+    ],
+    "price_hu": "0 Ft (példa ár)",
+    "price_en": "0.00 € (example)",
+    "fb_link": ""
+  },
+  {
+    "id": "oil-tea-tree",
+    "category": "oil",
+    "name_hu": "Teafa (Tea Tree) illóolaj (15 ml)",
+    "name_en": "Tea Tree essential oil (15 ml)",
+    "short_hu": "Friss, tiszta illat a mindennapi használatra.",
+    "short_en": "Fresh, clean aroma for everyday use.",
+    "long_hu": "Általános, semleges leírás a teafa olajról, hogyan illeszkedhet a hétköznapokba.",
+    "long_en": "General, neutral description of tea tree oil and how it can be part of daily routines.",
+    "bullets_hu": [
+      "Friss, tiszta illat.",
+      "Keverhető más esszenciális olajokkal.",
+      "Diffúzorban is használható."
+    ],
+    "bullets_en": [
+      "Fresh, clean aroma.",
+      "Blends well with other essential oils.",
+      "Suitable for use in a diffuser."
+    ],
+    "price_hu": "0 Ft (példa ár)",
+    "price_en": "0.00 € (example)",
+    "fb_link": ""
+  },
+  {
+    "id": "oil-balance",
+    "category": "oil",
+    "name_hu": "Balance keverék (15 ml)",
+    "name_en": "Balance blend (15 ml)",
+    "short_hu": "Földes, nyugtató hangulatú illatkeverék.",
+    "short_en": "Grounding, calming aromatic blend.",
+    "long_hu": "Semleges, hangulatot leíró szöveg a Balance keverékről.",
+    "long_en": "Neutral, mood‑oriented description of the Balance blend.",
+    "bullets_hu": [
+      "Földes, fás illatjegyek.",
+      "Esti rutin része lehet.",
+      "Illatosítóként használható."
+    ],
+    "bullets_en": [
+      "Earthy, woody notes.",
+      "Can be part of an evening routine.",
+      "Ideal as a home fragrance."
+    ],
+    "price_hu": "0 Ft (példa ár)",
+    "price_en": "0.00 € (example)",
+    "fb_link": ""
+  },
+  {
+    "id": "oil-lavender",
+    "category": "oil",
+    "name_hu": "Levendula illóolaj (15 ml)",
+    "name_en": "Lavender essential oil (15 ml)",
+    "short_hu": "Klasszikus, lágy virágos illat.",
+    "short_en": "Classic, soft floral aroma.",
+    "long_hu": "Rövid, semleges leírás a levendula illóolajról.",
+    "long_en": "Short, neutral description of lavender essential oil.",
+    "bullets_hu": [
+      "Lágy, virágos illat.",
+      "Sokak kedvence az esti rutin részeként.",
+      "Diffúzorban vagy illatként használható."
+    ],
+    "bullets_en": [
+      "Gentle, floral scent.",
+      "A favorite for many in the evening routine.",
+      "Can be used in a diffuser or as a personal scent."
+    ],
+    "price_hu": "0 Ft (példa ár)",
+    "price_en": "0.00 € (example)",
+    "fb_link": ""
+  },
+  {
+    "id": "oil-lemon",
+    "category": "oil",
+    "name_hu": "Citrom illóolaj (15 ml)",
+    "name_en": "Lemon essential oil (15 ml)",
+    "short_hu": "Friss, citrusos illat a napindításhoz.",
+    "short_en": "Fresh, citrus aroma to start the day.",
+    "long_hu": "Semleges leírás a citrom illóolajról, hangulatos használati ötletekkel.",
+    "long_en": "Neutral description of lemon essential oil with atmospheric usage ideas.",
+    "bullets_hu": [
+      "Élénk, citrusos illat.",
+      "Reggeli diffúzor keverékek része lehet.",
+      "Jól keverhető más citrusos olajokkal."
+    ],
+    "bullets_en": [
+      "Bright, citrus aroma.",
+      "Can be part of a morning diffuser blend.",
+      "Pairs well with other citrus oils."
+    ],
+    "price_hu": "0 Ft (példa ár)",
+    "price_en": "0.00 € (example)",
+    "fb_link": ""
+  },
+  {
+    "id": "oil-peppermint",
+    "category": "oil",
+    "name_hu": "Borsmenta (Peppermint) illóolaj (15 ml)",
+    "name_en": "Peppermint essential oil (15 ml)",
+    "short_hu": "Friss, élénkítő illat.",
+    "short_en": "Fresh, invigorating aroma.",
+    "long_hu": "Semleges leírás a borsmenta illóolajról, fókusz és frissesség témában.",
+    "long_en": "Neutral description of peppermint essential oil focusing on freshness and clarity.",
+    "bullets_hu": [
+      "Élénkítő illat.",
+      "Keverhető citrusos olajokkal.",
+      "Diffúzorban használható."
+    ],
+    "bullets_en": [
+      "Invigorating scent.",
+      "Pairs nicely with citrus oils.",
+      "Can be diffused."
+    ],
+    "price_hu": "0 Ft (példa ár)",
+    "price_en": "0.00 € (example)",
+    "fb_link": ""
+  },
+  {
+    "id": "oil-airx",
+    "category": "oil",
+    "name_hu": "Air-X keverék (15 ml)",
+    "name_en": "Air-X blend (15 ml)",
+    "short_hu": "Tiszta, friss illat a levegő illatosításához.",
+    "short_en": "Clean, fresh aroma to scent the air.",
+    "long_hu": "Semleges, levegő‑frissítő jellegű leírás az Air-X keverékről.",
+    "long_en": "Neutral, air‑freshening description of the Air‑X blend.",
+    "bullets_hu": [
+      "Friss, tiszta illat.",
+      "Otthoni levegő illatosításához.",
+      "Diffúzorban használható."
+    ],
+    "bullets_en": [
+      "Fresh, clean fragrance.",
+      "Great for scenting the air at home.",
+      "Designed for use in a diffuser."
+    ],
+    "price_hu": "0 Ft (példa ár)",
+    "price_en": "0.00 € (example)",
+    "fb_link": ""
+  },
+  {
+    "id": "oil-frankincense",
+    "category": "oil",
+    "name_hu": "Tömjén (Frankincense) illóolaj (15 ml)",
+    "name_en": "Frankincense essential oil (15 ml)",
+    "short_hu": "Meleg, fás illat a nyugodt pillanatokhoz.",
+    "short_en": "Warm, woody aroma for quiet moments.",
+    "long_hu": "Semleges, hangulati leírás a tömjén illóolajról.",
+    "long_en": "Neutral, mood‑focused description of frankincense essential oil.",
+    "bullets_hu": [
+      "Meleg, fás illat.",
+      "Esti rutin részeként is használható.",
+      "Diffúzorban kellemes hangulatot ad."
+    ],
+    "bullets_en": [
+      "Warm, woody scent.",
+      "Can be part of an evening wind‑down.",
+      "Creates a cosy diffuser atmosphere."
+    ],
+    "price_hu": "0 Ft (példa ár)",
+    "price_en": "0.00 € (example)",
+    "fb_link": ""
+  },
+  {
+    "id": "oil-zengest",
+    "category": "oil",
+    "name_hu": "ZenGest keverék (15 ml)",
+    "name_en": "ZenGest blend (15 ml)",
+    "short_hu": "Kellemes, fűszeres‑gyógynövényes illat.",
+    "short_en": "Pleasant, spicy‑herbal aroma.",
+    "long_hu": "Semleges, illatra fókuszáló leírás a ZenGest keverékről.",
+    "long_en": "Neutral, aroma‑focused description of the ZenGest blend.",
+    "bullets_hu": [
+      "Fűszeres‑gyógynövényes illatjegyek.",
+      "Mindennapi használatra tervezve.",
+      "Diffúzorban vagy illatként használható."
+    ],
+    "bullets_en": [
+      "Spicy‑herbal notes.",
+      "Designed for everyday use.",
+      "Suitable for diffusing or personal aroma."
+    ],
+    "price_hu": "0 Ft (példa ár)",
+    "price_en": "0.00 € (example)",
+    "fb_link": ""
+  },
+  {
+    "id": "oil-wild-orange",
+    "category": "oil",
+    "name_hu": "Vadnarancs (Wild Orange) illóolaj (15 ml)",
+    "name_en": "Wild Orange essential oil (15 ml)",
+    "short_hu": "Édes, vidám citrusos illat.",
+    "short_en": "Sweet, cheerful citrus aroma.",
+    "long_hu": "Semleges, hangulatjavító jellegű leírás a vadnarancs illatáról.",
+    "long_en": "Neutral, mood‑lifting style description of Wild Orange aroma.",
+    "bullets_hu": [
+      "Édes, gyümölcsös illat.",
+      "Reggeli diffúzor keverék része lehet.",
+      "Jól kombinálható más citrusos olajokkal."
+    ],
+    "bullets_en": [
+      "Sweet, fruity scent.",
+      "Great in morning diffuser blends.",
+      "Mixes beautifully with other citrus oils."
+    ],
+    "price_hu": "0 Ft (példa ár)",
+    "price_en": "0.00 € (example)",
+    "fb_link": ""
+  },
+  {
+    "id": "oil-oregano",
+    "category": "oil",
+    "name_hu": "Oregánó illóolaj (15 ml)",
+    "name_en": "Oregano essential oil (15 ml)",
+    "short_hu": "Erőteljes, fűszeres illat.",
+    "short_en": "Strong, spicy aroma.",
+    "long_hu": "Semleges leírás az oregánó illóolajról, illatára és intenzitására fókuszálva.",
+    "long_en": "Neutral description of oregano essential oil focusing on its aroma and intensity.",
+    "bullets_hu": [
+      "Erőteljes, jellegzetes illat.",
+      "Csak kis mennyiségben ajánlott illatosításra.",
+      "Más olajokkal keverve is használható."
+    ],
+    "bullets_en": [
+      "Strong, characteristic scent.",
+      "A little goes a long way in aroma blends.",
+      "Can be used together with other oils."
+    ],
+    "price_hu": "0 Ft (példa ár)",
+    "price_en": "0.00 € (example)",
+    "fb_link": ""
+  },
+  {
+    "id": "kit-family",
+    "category": "kit",
+    "name_hu": "Családi csomag regisztrációval",
+    "name_en": "Family kit with registration",
+    "short_hu": "Alap esszenciális olajválogatás a családi mindennapokhoz.",
+    "short_en": "Core essential oil selection for everyday family use.",
+    "long_hu": "Általános leírás a családi csomagról, mit tartalmazhat és kinek ajánlott – egészségügyi ígéretek nélkül.",
+    "long_en": "General description of the family kit, what it may contain and who it suits – without health claims.",
+    "bullets_hu": [
+      "Több népszerű alapolaj egy csomagban.",
+      "Regisztrációs lehetőséggel.",
+      "Kedvezőbb egységár a külön vásárláshoz képest (példa)."
+    ],
+    "bullets_en": [
+      "Several popular basic oils in one package.",
+      "Includes the option for registration.",
+      "More favourable unit price compared to buying separately (example)."
+    ],
+    "price_hu": "0 Ft (példa ár)",
+    "price_en": "0.00 € (example)",
+    "fb_link": ""
+  },
+  {
+    "id": "kit-aromatouch",
+    "category": "kit",
+    "name_hu": "AromaTouch Technique csomag regisztrációval",
+    "name_en": "AromaTouch Technique kit with registration",
+    "short_hu": "Kifejezetten az AromaTouch élményhez összeállított olajcsomag.",
+    "short_en": "Oil collection designed for the AromaTouch experience.",
+    "long_hu": "Semleges, kedvcsináló leírás az AromaTouch csomagról, a hangulati élményre fókuszálva.",
+    "long_en": "Neutral, inviting description of the AromaTouch kit, focusing on the sensory experience.",
+    "bullets_hu": [
+      "Többféle illat egy csomagban.",
+      "AromaTouch technikához ajánlott olajok.",
+      "Regisztrációs lehetőséggel."
+    ],
+    "bullets_en": [
+      "Multiple aromas in one kit.",
+      "Oils recommended for the AromaTouch technique.",
+      "Includes an option for registration."
+    ],
+    "price_hu": "0 Ft (példa ár)",
+    "price_en": "0.00 € (example)",
+    "fb_link": ""
+  },
+  {
+    "id": "kit-kids",
+    "category": "kit",
+    "name_hu": "Gyerek kollekció regisztrációval",
+    "name_en": "Kids collection with registration",
+    "short_hu": "Kifejezetten gyerekekre hangolt, gyengédebb illatválogatás.",
+    "short_en": "Gentler aromatic collection designed with kids in mind.",
+    "long_hu": "Semleges, óvatos leírás a gyerek kollekcióról – mindig a hivatalos útmutatást és hígítást hangsúlyozva.",
+    "long_en": "Neutral, cautious description of the kids collection – highlighting official guidance and dilution.",
+    "bullets_hu": [
+      "Gyengédebb illatok válogatása.",
+      "Kifejezetten gyerekeknek tervezett csomag.",
+      "Regisztrációs lehetőséggel."
+    ],
+    "bullets_en": [
+      "Selection of gentler aromas.",
+      "Collection designed especially for children.",
+      "Includes the option for registration."
+    ],
+    "price_hu": "0 Ft (példa ár)",
+    "price_en": "0.00 € (example)",
+    "fb_link": ""
+  }
+]

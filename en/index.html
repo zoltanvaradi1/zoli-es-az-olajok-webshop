@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Zoli és az Olajok – Webshop (EN)</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/styles.css">
+</head>
+<body data-lang="en">
+  <header class="site-header sticky">
+    <div class="header-inner">
+      <div class="brand">
+        <span class="logo-circle">Z</span>
+        <span class="brand-text">Zoli és az Olajok</span>
+      </div>
+
+      <nav class="main-nav">
+        <a href="#home">Home</a>
+        <a href="#shop">Shop</a>
+        <a href="#about">About</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contact">Contact / Order</a>
+      </nav>
+
+      <div class="header-actions">
+        <div class="lang-switch">
+          <a href="../hu/index.html">HU</a> |
+          <span class="active-lang">EN</span>
+        </div>
+
+        <button class="cart-summary" id="cartToggleEn" type="button">
+          <span class="cart-icon">🛒</span>
+          <span class="cart-text">Cart</span>
+          <span class="cart-count" id="cartCountEn">0</span>
+          <span class="cart-total" id="cartTotalEn">0 €</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- HOME / HERO -->
+    <section id="home" class="section hero">
+      <div class="hero-content">
+        <h1>Zoli és az Olajok</h1>
+        <p class="hero-subtitle">
+          Pure essential oils to support your everyday wellbeing in a simple, personal way.
+          <!-- TODO: replace with your own EN copy -->
+        </p>
+        <div class="hero-buttons">
+          <a href="#shop" class="btn primary">Shop now</a>
+          <a href="#about" class="btn secondary">About us</a>
+        </div>
+      </div>
+
+      <div class="hero-benefits">
+        <article class="benefit-card">
+          <h2>Why essential oils?</h2>
+          <p>
+            Short explanation about how essential oils can support mood, rest
+            and home atmosphere without medical claims.
+            <!-- TODO: own EN text -->
+          </p>
+        </article>
+        <article class="benefit-card">
+          <h2>Why doTERRA?</h2>
+          <p>
+            Talk about quality, sourcing and purity, and why you trust this brand.
+            <!-- TODO: own EN text -->
+          </p>
+        </article>
+        <article class="benefit-card">
+          <h2>Why Zoli?</h2>
+          <p>
+            Explain that you answer personally, listen to questions and do not
+            rely on automated responses.
+            <!-- TODO: own EN text -->
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <!-- SHOP -->
+    <section id="shop" class="section">
+      <div class="section-header">
+        <h2>Shop</h2>
+        <p>Browse single oils and starter kits.</p>
+      </div>
+
+      <div class="products-filters">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="oil">Oils</button>
+        <button class="filter-btn" data-filter="kit">Kits</button>
+      </div>
+
+      <div class="products-grid" id="productsGridEn">
+        <!-- Product cards from JS -->
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section section-alt">
+      <div class="section-header">
+        <h2>About</h2>
+      </div>
+      <div class="text-columns">
+        <p>
+          Here you can share your story, how you discovered essential oils and
+          why they became part of your everyday life.
+          <!-- TODO: own EN text -->
+        </p>
+        <p>
+          You can describe how oils support daily routines such as relaxation,
+          focus and atmosphere at home – without health claims.
+          <!-- TODO: own EN text -->
+        </p>
+        <p>
+          Highlight that you offer personal attention and guidance, not just
+          products.
+          <!-- TODO: own EN text -->
+        </p>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="section">
+      <div class="section-header">
+        <h2>FAQ</h2>
+        <p>Frequently asked questions about essential oils and ordering.</p>
+      </div>
+
+      <div class="accordion" id="faqEn">
+        <!-- 1 -->
+        <div class="accordion-item">
+          <button class="accordion-header" type="button">
+            What is an essential oil?
+          </button>
+          <div class="accordion-body">
+            <p>
+              A short, general explanation of essential oils without promising
+              to treat or cure any condition.
+              <!-- TODO: own EN text -->
+            </p>
+          </div>
+        </div>
+        <!-- 2 -->
+        <div class="accordion-item">
+          <button class="accordion-header" type="button">
+            Are essential oils safe to use?
+          </button>
+          <div class="accordion-body">
+            <p>
+              You can mention basic dilution, patch tests and the importance of
+              reading product guidelines.
+              <!-- TODO: own EN text -->
+            </p>
+          </div>
+        </div>
+        <!-- 3 -->
+        <div class="accordion-item">
+          <button class="accordion-header" type="button">
+            Can I use them with children?
+          </button>
+          <div class="accordion-body">
+            <p>
+              Give cautious, general information and highlight that children
+              require extra care and proper dilution.
+              <!-- TODO: own EN text -->
+            </p>
+          </div>
+        </div>
+        <!-- 4 -->
+        <div class="accordion-item">
+          <button class="accordion-header" type="button">
+            How is doTERRA different from cheaper oils?
+          </button>
+          <div class="accordion-body">
+            <p>
+              You can talk about quality, sourcing and testing.
+              <!-- TODO: own EN text -->
+            </p>
+          </div>
+        </div>
+        <!-- 5 -->
+        <div class="accordion-item">
+          <button class="accordion-header" type="button">
+            How do I place an order?
+          </button>
+          <div class="accordion-body">
+            <p>
+              Briefly describe: choose products, add to cart, then use the
+              “Order by email” button.
+              <!-- TODO: own EN text -->
+            </p>
+          </div>
+        </div>
+        <!-- 6 -->
+        <div class="accordion-item">
+          <button class="accordion-header" type="button">
+            Which payment methods are available?
+          </button>
+          <div class="accordion-body">
+            <p>
+              Explain that payment details are agreed by email (e.g. bank transfer),
+              not through online checkout.
+              <!-- TODO: own EN text -->
+            </p>
+          </div>
+        </div>
+        <!-- 7 -->
+        <div class="accordion-item">
+          <button class="accordion-header" type="button">
+            How long does shipping take?
+          </button>
+          <div class="accordion-body">
+            <p>
+              Provide an approximate time frame and mention that you confirm
+              details individually by email.
+              <!-- TODO: own EN text -->
+            </p>
+          </div>
+        </div>
+        <!-- 8 -->
+        <div class="accordion-item">
+          <button class="accordion-header" type="button">
+            Can I ask for personal advice?
+          </button>
+          <div class="accordion-body">
+            <p>
+              Encourage people to reach out by email with questions and mention
+              that you’re happy to help.
+              <!-- TODO: own EN text -->
+            </p>
+          </div>
+        </div>
+        <!-- 9 -->
+        <div class="accordion-item">
+          <button class="accordion-header" type="button">
+            Do I need a membership to get discounts?
+          </button>
+          <div class="accordion-body">
+            <p>
+              Explain the idea of registration kits and general benefits in a
+              neutral, non‑medical way.
+              <!-- TODO: own EN text -->
+            </p>
+          </div>
+        </div>
+        <!-- 10 -->
+        <div class="accordion-item">
+          <button class="accordion-header" type="button">
+            What if I have questions after ordering?
+          </button>
+          <div class="accordion-body">
+            <p>
+              Let customers know they can always contact you by email and you
+              will respond personally.
+              <!-- TODO: own EN text -->
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT / ORDER -->
+    <section id="contact" class="section section-alt">
+      <div class="section-header">
+        <h2>Contact & Order</h2>
+        <p>
+          Orders are placed by email and you receive a personal response, not an automated message.
+        </p>
+      </div>
+
+      <div class="contact-grid">
+        <div>
+          <h3>Contact</h3>
+          <p>
+            Send an email if you have questions about the products, how to use
+            them or how ordering works.
+          </p>
+          <p class="contact-email">
+            Email: <a href="mailto:sntsnt75@gmail.com">sntsnt75@gmail.com</a>
+          </p>
+          <!-- TODO: if you change your email, update it HERE and in script.js -->
+        </div>
+
+        <div>
+          <h3>Customer details</h3>
+          <form id="orderFormEn">
+            <div class="form-row">
+              <label for="nameEn">Name</label>
+              <input type="text" id="nameEn" name="name">
+            </div>
+            <div class="form-row">
+              <label for="emailEn">Email</label>
+              <input type="email" id="emailEn" name="email">
+            </div>
+            <div class="form-row">
+              <label for="phoneEn">Phone</label>
+              <input type="tel" id="phoneEn" name="phone">
+            </div>
+            <div class="form-row">
+              <label for="addressEn">Address</label>
+              <textarea id="addressEn" name="address" rows="2"></textarea>
+            </div>
+            <div class="form-row">
+              <label for="commentEn">Comment</label>
+              <textarea id="commentEn" name="comment" rows="3"></textarea>
+            </div>
+          </form>
+        </div>
+
+        <div>
+          <h3>Order by email</h3>
+          <p>
+            Your cart and details are combined into an order summary that you
+            can send by email.
+          </p>
+          <button id="emailOrderEn" class="btn primary" type="button">
+            Order by email
+          </button>
+          <p class="textarea-label">
+            If your email app does not open automatically, copy the text below
+            into your own email:
+          </p>
+          <textarea id="orderSummaryEn" rows="10" class="order-summary-textarea"></textarea>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- CART MODAL -->
+  <div class="modal" id="cartModalEn" aria-hidden="true">
+    <div class="modal-backdrop" data-close="cartEn"></div>
+    <div class="modal-dialog">
+      <header class="modal-header">
+        <h2>Cart</h2>
+        <button class="modal-close" data-close="cartEn" type="button">&times;</button>
+      </header>
+      <div class="modal-body">
+        <div id="cartItemsEn" class="cart-items"></div>
+        <div class="cart-footer">
+          <div class="cart-summary-line">
+            <span>Subtotal:</span>
+            <strong id="cartSubtotalEn">0 €</strong>
+          </div>
+          <div class="cart-actions">
+            <button id="clearCartEn" class="btn secondary" type="button">Clear cart</button>
+            <a href="#contact" class="btn primary">Continue to order</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- PRODUCT DETAILS MODAL (reused for all products) -->
+  <div class="modal" id="productModalEn" aria-hidden="true">
+    <div class="modal-backdrop" data-close="productEn"></div>
+    <div class="modal-dialog">
+      <header class="modal-header">
+        <h2 id="productModalTitleEn">Product details</h2>
+        <button class="modal-close" data-close="productEn" type="button">&times;</button>
+      </header>
+      <div class="modal-body" id="productModalBodyEn">
+        <!-- Populated by JS -->
+      </div>
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    <p>&copy; <span id="year"></span> Zoli és az Olajok</p>
+  </footer>
+
+  <script src="../assets/script.js"></script>
+</body>
+</html>
