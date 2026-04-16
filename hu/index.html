@@ -2,381 +2,131 @@
 <html lang="hu">
 <head>
   <meta charset="UTF-8">
-  <title>Zoli és az Olajok – Webshop (HU)</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- Google Font -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <title>Zoli és az Olajok – Webshop</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="../assets/styles.css">
 </head>
-<body data-lang="hu">
-  <header class="site-header sticky">
-    <div class="header-inner">
-      <div class="brand">
-        <span class="logo-circle">Z</span>
-        <span class="brand-text">Zoli és az Olajok</span>
-      </div>
-
-      <nav class="main-nav">
-        <a href="#home">Főoldal</a>
-        <a href="#shop">Webshop</a>
-        <a href="#about">Rólunk</a>
-        <a href="#faq">GYIK</a>
-        <a href="#contact">Kapcsolat / Rendelés</a>
-      </nav>
-
-      <div class="header-actions">
-        <div class="lang-switch">
-          <span class="active-lang">HU</span> |
-          <a href="../en/index.html">EN</a>
-        </div>
-
-        <button class="cart-summary" id="cartToggleHu" type="button">
-          <span class="cart-icon">🛒</span>
-          <span class="cart-text">Kosár</span>
-          <span class="cart-count" id="cartCountHu">0</span>
-          <span class="cart-total" id="cartTotalHu">0 Ft</span>
-        </button>
-      </div>
+<body>
+  <header>
+    <h1>Zoli és az Olajok</h1>
+    <div id="cart-summary">
+      <span id="cart-count">0</span> termék a kosárban – Összesen: <span id="cart-total">0 Ft</span>
+      <button id="open-cart-btn">Kosár megtekintése</button>
     </div>
+    <nav>
+      <a href="#shop">Shop</a>
+      <a href="#about">Rólunk</a>
+      <a href="#faq">GYIK</a>
+      <a href="#contact">Kapcsolat / Rendelés</a>
+      <a href="../en/index.html" class="lang-switch">English</a>
+    </nav>
   </header>
 
   <main>
-    <!-- HOME / HERO -->
-    <section id="home" class="section hero">
-      <div class="hero-content">
-        <h1>Zoli és az Olajok</h1>
-        <p class="hero-subtitle">
-          Finom, tiszta esszenciális olajok a mindennapi jóléted támogatásához.
-          <!-- TODO: cseréld a szöveget a saját magyar szövegedre -->
-        </p>
-        <div class="hero-buttons">
-          <a href="#shop" class="btn primary">Vásárlás</a>
-          <a href="#about" class="btn secondary">Rólunk</a>
-        </div>
-      </div>
-
-      <div class="hero-benefits">
-        <article class="benefit-card">
-          <h2>Miért esszenciális olajok?</h2>
-          <p>
-            Rövid magyarázat arról, hogyan támogatják az esszenciális olajok a
-            hangulatot, a pihenést és az otthoni hangulatot.
-            <!-- TODO: saját HU szöveg -->
-          </p>
-        </article>
-        <article class="benefit-card">
-          <h2>Miért doTERRA?</h2>
-          <p>
-            Rövid szöveg a minőségről, fenntarthatóságról, tisztaságról, és hogy
-            miért bízol ebben a márkában.
-            <!-- TODO: saját HU szöveg -->
-          </p>
-        </article>
-        <article class="benefit-card">
-          <h2>Miért Zoli?</h2>
-          <p>
-            Pár mondat arról, hogy személyesen segítesz, kérdés esetén elérhető
-            vagy, és nem egy automatizált rendszer válaszol.
-            <!-- TODO: saját HU szöveg -->
-          </p>
-        </article>
-      </div>
+    <!-- Hero -->
+    <section id="hero">
+      <h2>Illatok a mindennapok harmóniájához</h2>
+      <p>Prémium doTERRA illóolajok és wellness csomagok – rendelés egyszerűen, emailben.</p>
     </section>
 
-    <!-- SHOP -->
-    <section id="shop" class="section">
-      <div class="section-header">
-        <h2>Webshop</h2>
-        <p>Válogass az illóolajok és készletek közül.</p>
-      </div>
-
-      <div class="products-filters">
-        <button class="filter-btn active" data-filter="all">Összes</button>
-        <button class="filter-btn" data-filter="oil">Olajok</button>
-        <button class="filter-btn" data-filter="kit">Készletek</button>
-      </div>
-
-      <div class="products-grid" id="productsGridHu">
-        <!-- Termékkártyák JS-ből -->
-      </div>
+    <!-- Shop -->
+    <section id="shop">
+      <h2>Webshop</h2>
+      <div id="product-grid"></div>
     </section>
 
-    <!-- ABOUT -->
-    <section id="about" class="section section-alt">
-      <div class="section-header">
-        <h2>Rólunk</h2>
-      </div>
-      <div class="text-columns">
-        <p>
-          Itt mesélhetsz magadról, hogyan találkoztál az esszenciális olajokkal,
-          és miért lett fontos része az életednek.
-          <!-- TODO: saját HU szöveg -->
-        </p>
-        <p>
-          Írhatsz arról is, hogyan segítenek az olajok a mindennapokban,
-          például hangulat, pihenés, otthoni légkör terén – betegségre vonatkozó
-          állítások nélkül.
-          <!-- TODO: saját HU szöveg -->
-        </p>
-        <p>
-          Emeld ki, hogy nem csupán terméket adsz, hanem figyelmet és
-          személyes támogatást is.
-          <!-- TODO: saját HU szöveg -->
-        </p>
-      </div>
+    <!-- About -->
+    <section id="about">
+      <h2>Rólunk</h2>
+      <p>
+        A „Zoli és az Olajok” egy tanulási és bemutató projekt, amely a doTERRA illóolajok wellness világát mutatja be.<br>
+        A webshop célja, hogy megismertesse az érdeklődőkkel a természetes illóolajokat, azok mindennapi, jóléthez kapcsolódó felhasználását.
+      </p>
+      <p>
+        Ez az oldal nem hivatalos értékesítési felület, hanem egy teszt és tanulási célú bemutató. Ha mégis rendelnél, a kapcsolatfelvétel után egyeztetünk a részletekről.<br>
+        A webshop teszteléséért, rendelés esetén akár kis doTERRA ajándékot (mintaméretű olaj, promóciós ajándék) is kaphatsz!
+      </p>
     </section>
 
     <!-- FAQ -->
-    <section id="faq" class="section">
-      <div class="section-header">
-        <h2>GYIK</h2>
-        <p>Gyakran ismételt kérdések az olajokról és a rendelésről.</p>
-      </div>
+    <section id="faq">
+      <h2>Gyakran Ismételt Kérdések</h2>
+      <div class="faq-list">
+        <div class="faq-item">
+          <strong>Hogyan tudok rendelni?</strong>
+          <p>Emailben, a kosár tartalmát elküldve a megadott címre.</p>
+        </div>
+        <div class="faq-item">
+          <strong>Valódi rendelés ez?</strong>
+          <p>Ez egy tanulási, bemutató webshop. Ha valódi rendelést szeretnél, a kapcsolatfelvétel után egyeztetünk.</p>
+        </div>
+        <div class="faq-item">
+          <strong>Biztonságosak az illóolajok?</strong>
+          <p>A doTERRA olajok 100% tisztaságúak, de mindig kövesd a hivatalos használati útmutatót!</p>
+        </div>
+        <div class="faq-item">
+          <strong>Gyerekek is használhatják?</strong>
+          <p>Igen, de csak a kifejezetten gyermekeknek készült olajokat, szülői felügyelettel, hígítva.</p>
+        </div>
+        <div class="faq-item">
+          <strong>Hogyan használjam az olajokat?</strong>
+          <p>Diffúzorban, bőrápoláshoz hígítva, vagy takarításhoz – minden terméknél találsz ötleteket.</p>
+        </div>
+        <div class="faq-item">
+          <strong>Van garancia?</strong>
+          <p>Mivel ez egy bemutató oldal, a rendelés részleteit emailben egyeztetjük.</p>
+        </div>
+        <div class="faq-item">
+          <strong>Hogyan kapom meg a termékeket?</strong>
+          <p>Emailes egyeztetés után, személyes átvétellel vagy postázással, ahogy megbeszéljük.</p>
+        </div>
+        <div class="faq-item">
+          <strong>Miért kell megadni a nevemet, címemet?</strong>
 
-      <div class="accordion" id="faqHu">
-        <!-- 1 -->
-        <div class="accordion-item">
-          <button class="accordion-header" type="button">
-            Mi az az esszenciális olaj?
-          </button>
-          <div class="accordion-body">
-            <p>
-              Rövid, általános magyarázat az esszenciális olajokról, anélkül,
-              hogy betegségekre tennél ígéretet.
-              <!-- TODO: saját HU szöveg -->
-            </p>
-          </div>
+          <p>Ez szükséges a rendelés feldolgozásához és a kapcsolatfelvételhez, de az adatokat bizalmasan kezeljük.</p>
         </div>
-        <!-- 2 -->
-        <div class="accordion-item">
-          <button class="accordion-header" type="button">
-            Biztonságosan használhatók az olajok?
-          </button>
-          <div class="accordion-body">
-            <p>
-              Itt tudsz írni az alapvető hígításról, bőrpróbáról, és arról,
-              hogy a termékleírásokat mindig érdemes elolvasni.
-              <!-- TODO: saját HU szöveg -->
-            </p>
-          </div>
-        </div>
-        <!-- 3 -->
-        <div class="accordion-item">
-          <button class="accordion-header" type="button">
-            Használhatom őket gyerekeknél?
-          </button>
-          <div class="accordion-body">
-            <p>
-              Általános, óvatos tájékoztatás, hogy gyerekeknél mindig extra
-              körültekintéssel, hígítva és hivatalos útmutatók alapján
-              érdemes használni.
-              <!-- TODO: saját HU szöveg -->
-            </p>
-          </div>
-        </div>
-        <!-- 4 -->
-        <div class="accordion-item">
-          <button class="accordion-header" type="button">
-            Miben más a doTERRA az olcsóbb olajokhoz képest?
-          </button>
-          <div class="accordion-body">
-            <p>
-              Beszélhetsz a minőségről, tisztaságról, beszerzési forrásokról
-              és tesztelésről.
-              <!-- TODO: saját HU szöveg -->
-            </p>
-          </div>
-        </div>
-        <!-- 5 -->
-        <div class="accordion-item">
-          <button class="accordion-header" type="button">
-            Hogyan tudok rendelni?
-          </button>
-          <div class="accordion-body">
-            <p>
-              Röviden: válaszd ki a termékeket, tedd a kosárba, majd a
-              „Megrendelés e‑mailben” gombbal küldd el a rendelést.
-              <!-- TODO: saját HU szöveg -->
-            </p>
-          </div>
-        </div>
-        <!-- 6 -->
-        <div class="accordion-item">
-          <button class="accordion-header" type="button">
-            Milyen fizetési módok érhetők el?
-          </button>
-          <div class="accordion-body">
-            <p>
-              Itt tudod leírni, hogyan egyeztettek fizetésről e‑mailben
-              (átutalás, stb.), anélkül, hogy online fizetést ígérnél.
-              <!-- TODO: saját HU szöveg -->
-            </p>
-          </div>
-        </div>
-        <!-- 7 -->
-        <div class="accordion-item">
-          <button class="accordion-header" type="button">
-            Mennyi idő a szállítás?
-          </button>
-          <div class="accordion-body">
-            <p>
-              Írj egy átlagos szállítási időt és azt, hogy egyedi esetekben
-              e‑mailben pontosítasz.
-              <!-- TODO: saját HU szöveg -->
-            </p>
-          </div>
-        </div>
-        <!-- 8 -->
-        <div class="accordion-item">
-          <button class="accordion-header" type="button">
-            Tudok személyes tanácsot kérni?
-          </button>
-          <div class="accordion-body">
-            <p>
-              Bátoríthatod a látogatót, hogy e‑mailben vagy üzenetben
-              kérdezzen, és szívesen segítesz.
-              <!-- TODO: saját HU szöveg -->
-            </p>
-          </div>
-        </div>
-        <!-- 9 -->
-        <div class="accordion-item">
-          <button class="accordion-header" type="button">
-            Szükséges‑e regisztráció a kedvezményekhez?
-          </button>
-          <div class="accordion-body">
-            <p>
-              Itt magyarázhatod a regisztrációs készletek előnyeit általánosan.
-              <!-- TODO: saját HU szöveg -->
-            </p>
-          </div>
-        </div>
-        <!-- 10 -->
-        <div class="accordion-item">
-          <button class="accordion-header" type="button">
-            Mit tegyek, ha kérdésem van a rendelés után?
-          </button>
-          <div class="accordion-body">
-            <p>
-              Írd, hogy e‑mailben bármikor elérhető vagy, és szívesen segítesz
-              kérdés esetén.
-              <!-- TODO: saját HU szöveg -->
-            </p>
-          </div>
+        <div class="faq-item">
+          <strong>Kaphatok ajándékot?</strong>
+          <p>Igen, a webshop teszteléséért vagy rendelésért kis doTERRA mintát vagy promóciós ajándékot is kaphatsz!</p>
         </div>
       </div>
     </section>
 
-    <!-- CONTACT / ORDER -->
-    <section id="contact" class="section section-alt">
-      <div class="section-header">
-        <h2>Kapcsolat és rendelés</h2>
-        <p>
-          A rendelés e‑mailben történik, minden megkeresésre személyesen válaszolok.
-        </p>
-      </div>
-
-      <div class="contact-grid">
-        <div>
-          <h3>Elérhetőség</h3>
-          <p>
-            Írj e‑mailt, ha kérdésed van a termékekkel, a használattal vagy
-            a rendelési folyamattal kapcsolatban.
-          </p>
-          <p class="contact-email">
-            E‑mail: <a href="mailto:sntsnt75@gmail.com">sntsnt75@gmail.com</a>
-          </p>
-          <!-- TODO: ha változik az e‑mail cím, ITT és a script.js-ben is cseréld -->
-        </div>
-
-        <div>
-          <h3>Rendelési adatok</h3>
-          <form id="orderFormHu">
-            <div class="form-row">
-              <label for="nameHu">Név</label>
-              <input type="text" id="nameHu" name="name">
-            </div>
-            <div class="form-row">
-              <label for="emailHu">E‑mail</label>
-              <input type="email" id="emailHu" name="email">
-            </div>
-            <div class="form-row">
-              <label for="phoneHu">Telefon</label>
-              <input type="tel" id="phoneHu" name="phone">
-            </div>
-            <div class="form-row">
-              <label for="addressHu">Cím</label>
-              <textarea id="addressHu" name="address" rows="2"></textarea>
-            </div>
-            <div class="form-row">
-              <label for="commentHu">Megjegyzés</label>
-              <textarea id="commentHu" name="comment" rows="3"></textarea>
-            </div>
-          </form>
-        </div>
-
-        <div>
-          <h3>Rendelés e‑mailben</h3>
-          <p>
-            A kosár tartalmából és az adataidból automatikus rendelés‑összefoglaló
-            készül, amelyet e‑mailben küldhetsz el.
-          </p>
-          <button id="emailOrderHu" class="btn primary" type="button">
-            Megrendelés e‑mailben
-          </button>
-          <p class="textarea-label">
-            Ha az e‑mail kliens nem nyílik meg, másold ki az alábbi szöveget
-            és illeszd be a saját leveledbe:
-          </p>
-          <textarea id="orderSummaryHu" rows="10" class="order-summary-textarea"></textarea>
-        </div>
+    <!-- Contact / Order -->
+    <section id="contact">
+      <h2>Kapcsolat / Rendelés</h2>
+      <p>
+        Rendeléshez töltsd meg a kosarat, majd kattints a „Megrendelés e-mailben” gombra!<br>
+        Az email tartalmazza a kiválasztott termékeket, mennyiségeket, végösszeget, valamint kérjük add meg a neved, címed és telefonszámod.<br>
+        Email cím: <a href="mailto:sntsnt75@gmail.com">sntsnt75@gmail.com</a>
+      </p>
+      <div id="order-email-section" style="display:none;">
+        <h3>Megrendelés szövege</h3>
+        <textarea id="order-email-text" rows="8" readonly></textarea>
+        <p>Másold ki a szöveget, vagy kattints a „Megrendelés e-mailben” gombra!</p>
+        <button id="send-order-btn">Megrendelés e-mailben</button>
       </div>
     </section>
   </main>
 
-  <!-- CART MODAL -->
-  <div class="modal" id="cartModalHu" aria-hidden="true">
-    <div class="modal-backdrop" data-close="cartHu"></div>
-    <div class="modal-dialog">
-      <header class="modal-header">
-        <h2>Kosár</h2>
-        <button class="modal-close" data-close="cartHu" type="button">&times;</button>
-      </header>
-      <div class="modal-body">
-        <div id="cartItemsHu" class="cart-items"></div>
-        <div class="cart-footer">
-          <div class="cart-summary-line">
-            <span>Összesen:</span>
-            <strong id="cartSubtotalHu">0 Ft</strong>
-          </div>
-          <div class="cart-actions">
-            <button id="clearCartHu" class="btn secondary" type="button">Kosár ürítése</button>
-            <a href="#contact" class="btn primary">Tovább a rendeléshez</a>
-          </div>
-        </div>
-      </div>
+  <!-- Product Modal -->
+  <div id="product-modal" class="modal" style="display:none;">
+    <div class="modal-content">
+      <span class="close" id="close-modal">&times;</span>
+      <div id="modal-body"></div>
     </div>
   </div>
 
-  <!-- PRODUCT DETAILS MODAL (reused for all products) -->
-  <div class="modal" id="productModalHu" aria-hidden="true">
-    <div class="modal-backdrop" data-close="productHu"></div>
-    <div class="modal-dialog">
-      <header class="modal-header">
-        <h2 id="productModalTitleHu">Termék részletei</h2>
-        <button class="modal-close" data-close="productHu" type="button">&times;</button>
-      </header>
-      <div class="modal-body" id="productModalBodyHu">
-        <!-- JS tölti be -->
-      </div>
+  <!-- Cart Modal -->
+  <div id="cart-modal" class="modal" style="display:none;">
+    <div class="modal-content">
+      <span class="close" id="close-cart-modal">&times;</span>
+      <h3>Kosár tartalma</h3>
+      <div id="cart-items"></div>
+      <div id="cart-summary-modal"></div>
+      <button id="checkout-btn">Megrendelés e-mailben</button>
     </div>
   </div>
-
-  <footer class="site-footer">
-    <p>&copy; <span id="year"></span> Zoli és az Olajok</p>
-  </footer>
 
   <script src="../assets/script.js"></script>
 </body>
