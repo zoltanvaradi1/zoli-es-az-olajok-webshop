@@ -209,7 +209,7 @@ function showOrderSection() {
   textarea.value = buildOrderText();
   textarea.select();
 }
-function buildOrderText() {
+function buildOrderText(name, address, phone) {
   const items = getCartItems();
   if (items.length === 0) return lang === 'hu' ? 'A kosár üres.' : 'Your cart is empty.';
 
