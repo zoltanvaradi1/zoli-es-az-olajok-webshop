@@ -234,8 +234,7 @@ function buildOrderText() {
 function sendOrderEmail() {
   const name = document.getElementById('order-name').value.trim();
   const address = document.getElementById('order-address').value.trim();
-  const phone = document
-.getElementById('order-phone').value.trim();
+  const phone = document.getElementById('order-phone').value.trim();
   if (!name || !address || !phone) {
     alert(lang === 'hu'
       ? 'Kérjük, add meg a neved, címed és telefonszámod!'
