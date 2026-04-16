@@ -100,12 +100,24 @@
         Az email tartalmazza a kiválasztott termékeket, mennyiségeket, végösszeget, valamint kérjük add meg a neved, címed és telefonszámod.<br>
         Email cím: <a href="mailto:sntsnt75@gmail.com">sntsnt75@gmail.com</a>
       </p>
-      <div id="order-email-section" style="display:none;">
-        <h3>Megrendelés szövege</h3>
-        <textarea id="order-email-text" rows="8" readonly></textarea>
-        <p>Másold ki a szöveget, vagy kattints a „Megrendelés e-mailben” gombra!</p>
-        <button id="send-order-btn">Megrendelés e-mailben</button>
-      </div>
+<div id="order-email-section" style="display:none;">
+  <h3>Megrendelés adatai</h3>
+  <label>
+    Név:
+    <input type="text" id="order-name" required>
+  </label><br>
+  <label>
+    Cím:
+    <input type="text" id="order-address" required>
+  </label><br>
+  <label>
+    Telefonszám:
+    <input type="text" id="order-phone" required>
+  </label><br><br>
+  <textarea id="order-email-text" rows="8" readonly></textarea>
+  <p>Másold ki a szöveget, vagy kattints a „Megrendelés e-mailben” gombra!</p>
+  <button id="send-order-btn">Megrendelés e-mailben</button>
+</div>
     </section>
   </main>
 

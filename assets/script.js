@@ -14,7 +14,20 @@ document.addEventListener('DOMContentLoaded', () => {
   setupCartSummary();
   setupCartModal();
   setupOrderSection();
+
+  ['order-name', 'order-address', 'order-phone'].forEach(id => {
+    const el = document.getElementById(id);
+    if (el) el.oninput = updateOrderTextarea;
+  });
+
 });
+
+function updateOrderTextarea() {
+  const name = document.getElementById('order-name').value.trim();
+  const address = document.getElementById('order-address').value.trim();
+  const phone = document.getElementById('order-phone').value.trim();
+  document.getElementById('order-email-text').value = buildOrderText(name, address, phone);
+}
 
 // --- LOAD PRODUCTS ---
 function loadProducts() {
@@ -213,16 +226,31 @@ function buildOrderText() {
   text += (lang === 'hu'
     ? `\nÖsszesen: ${totalHUF} Ft / ${totalEUR.toFixed(2)} EUR\n`
     : `\nTotal: ${totalHUF} HUF / ${totalEUR.toFixed(2)} EUR\n`);
-  text += (lang === 'hu'
-    ? '\nKérjük, add meg a neved, címed és telefonszámod:\nNév:\nCím:\nTelefon:\n'
-    : '\nPlease provide your name, address, and phone number:\nName:\nAddress:\nPhone:\n');
+   text += (lang === 'hu'
+    ? `\nNév: ${name}\nCím: ${address}\nTelefon: ${phone}\n`
+    : `\nName: ${name}\nAddress: ${address}\nPhone: ${phone}\n`);
   return text;
 }
 function sendOrderEmail() {
+  const name = document.getElementById('order-name').value.trim();
+  const address = document.getElementById('order-address').value.trim();
+  const phone = document
+.getElementById('order-phone').value.trim();
+  if (!name || !address || !phone) {
+    alert(lang === 'hu'
+      ? 'Kérjük, add meg a neved, címed és telefonszámod!'
+      : 'Please provide your name, address, and phone number!');
+    return;
+  }
   const subject = encodeURIComponent(lang === 'hu' ? 'Új rendelés – Zoli és az Olajok' : 'New order – Zoli és az Olajok');
-  const body = encodeURIComponent(buildOrderText());
+  const body = encodeURIComponent(buildOrderText(name, address, phone));
   window.location.href = `mailto:sntsnt75@gmail.com?subject=${subject}&body=${body}`;
   clearCart();
+  // ürítsd az input mezőket is, ha szeretnéd:
+  document.getElementById('order-name').value = '';
+  document.getElementById('order-address').value = '';
+  document.getElementById('order-phone').value = '';
+  document.getElementById('order-email-text').value = '';
 }
 
 // --- EXPORT FOR INLINE EVENTS ---
