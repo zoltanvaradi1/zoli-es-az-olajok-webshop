@@ -199,8 +199,7 @@ section {
 #order-email-section {
   margin-top: 1.5rem;
   background: #f3eaff;
-  border
--radius: 0.7rem;
+  border-radius: 0.7rem;
   padding: 1rem;
 }
 
@@ -357,6 +356,21 @@ body.lang-selector {
 
 .btn:hover {
   background: #512da8;
+}
+
+.site-logo {
+  height: 48px;
+  margin-right: 1rem;
+  vertical-align: middle;
+}
+header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+header h1 {
+  display: inline-block;
+  vertical-align: middle;
 }
 
 /* Responsive */
