@@ -1,324 +1,359 @@
 [
   {
-    "id": "oil-on-guard",
+    "id": "on_guard",
     "category": "oil",
-    "name_hu": "On Guard védőkeverék (15 ml)",
-    "name_en": "On Guard Protective Blend (15 ml)",
-    "short_hu": "Meleg, fűszeres illat a mindennapi komfort érzetéhez.",
-    "short_en": "Warm, spicy aroma to support a cosy everyday atmosphere.",
-    "long_hu": "On Guard – védelmező keverék",
-    "long_en": "On Guard – protective blend",
+    "name_hu": "On Guard",
+    "name_en": "On Guard",
+    "short_hu": "Meleg, fűszeres illat, amely támogatja az otthoni frissességet és jó közérzetet.",
+    "short_en": "A warm, spicy aroma that supports a fresh home environment and overall well-being.",
+    "long_hu": "On Guard – a mindennapi védelem illata\nAz On Guard illóolaj keverék fahéj, szegfűszeg, eukaliptusz, rozmaring és narancs olajok harmonikus elegye. Mindennapi használatra ajánlott, hogy otthonodban friss, tiszta légkört teremts.\n\nHasználat\n- Diffúzorban párologtatva kellemes, fűszeres illatot biztosít.\n- Takarítás során néhány csepp a vízbe cseppentve természetes frissességet ad.",
+    "long_en": "On Guard – the scent of everyday protection\nOn Guard essential oil blend is a harmonious combination of cinnamon, clove, eucalyptus, rosemary, and orange oils. Recommended for daily use to create a fresh, clean atmosphere in your home.\n\nUsage\n- Diffuse for a warm, spicy aroma.\n- Add a few drops to cleaning water for a natural freshness.",
     "bullets_hu": [
-      "Meleg, fűszeres illat.",
-      "Otthoni illatosításhoz használható.",
-      "Jól kombinálható citrusos olajokkal."
+      "Fűszeres, meleg illat a mindennapokra.",
+      "Diffúzorban párologtatva frissíti a levegőt.",
+      "Természetes összetevők keveréke.",
+      "Takarításhoz is használható."
     ],
     "bullets_en": [
-      "Warm, spicy aroma.",
-      "Can be used to scent your home.",
-      "Pairs well with citrus oils."
+      "Warm, spicy aroma for everyday use.",
+      "Freshens the air when diffused.",
+      "A blend of natural ingredients.",
+      "Can be used for cleaning."
     ],
-    "price_hu": "0 Ft (példa ár)",
-    "price_en": "0.00 € (example)",
-    "fb_link": ""
+    "price_hu": "18 842 Ft",
+    "price_en": "64.40 EUR",
+    "image_hu": "img/oil_on_guard_hu_1.jpg",
+    "image_en": "img/oil_on_guard_en_1.jpg",
+    "fb_link": "https://www.facebook.com/Zoli.es.az.Olajok/posts/pfbid0QRn95yTuHp3AnseoVvzuWMTCdF7iAdTh6X29S8i3gQ8QvE1S38NqDaEurN91PBmdl"
   },
   {
-    "id": "oil-tea-tree",
+    "id": "tea_tree",
     "category": "oil",
-    "name_hu": "Teafa (Tea Tree) illóolaj (15 ml)",
-    "name_en": "Tea Tree essential oil (15 ml)",
-    "short_hu": "Friss, tiszta illat a mindennapi használatra.",
-    "short_en": "Fresh, clean aroma for everyday use.",
-    "long_hu": "A Teafa olaj",
-    "long_en": "General, neutral description of tea tree oil and how it can be part of daily routines.",
+    "name_hu": "Teafa",
+    "name_en": "Tea Tree",
+    "short_hu": "Friss, tiszta illat, amely támogatja a mindennapi jólétet.",
+    "short_en": "A fresh, clean aroma that supports everyday wellness.",
+    "long_hu": "Teafa – a tisztaság illata\nA teafa illóolaj friss, gyógynövényes illatával hozzájárul a mindennapi jó közérzethez. Használható diffúzorban vagy hígítva bőrápoláshoz.\n\nHasználat\n- Diffúzorban párologtatva tiszta légkört teremt.\n- Hígítva bőrápolási rutin részeként alkalmazható.",
+    "long_en": "Tea Tree – the scent of purity\nTea Tree essential oil offers a fresh, herbal aroma that contributes to everyday well-being. Use in a diffuser or diluted for skin care routines.\n\nUsage\n- Diffuse for a clean, refreshing atmosphere.\n- Dilute and apply as part of your skincare routine.",
     "bullets_hu": [
-      "Friss, tiszta illat.",
-      "Keverhető más esszenciális olajokkal.",
-      "Diffúzorban is használható."
+      "Friss, gyógynövényes illat.",
+      "Diffúzorban tisztítja a levegőt.",
+      "Bőrápoláshoz hígítva használható."
     ],
     "bullets_en": [
-      "Fresh, clean aroma.",
-      "Blends well with other essential oils.",
-      "Suitable for use in a diffuser."
+      "Fresh, herbal aroma.",
+      "Cleanses the air when diffused.",
+      "Can be used diluted for skin care."
     ],
-    "price_hu": "0 Ft (példa ár)",
-    "price_en": "0.00 € (example)",
-    "fb_link": ""
+    "price_hu": "21 643 Ft",
+    "price_en": "41.62 EUR",
+    "image_hu": "img/oil_tea_tree_hu_1.jpg",
+    "image_en": "img/oil_tea_tree_en_1.jpg",
+    "fb_link": "https://www.facebook.com/Zoli.es.az.Olajok
+/posts/pfbid0QRn95yTuHp3AnseoVvzuWMTCdF7iAdTh6X29S8i3gQ8QvE1S38NqDaEurN91PBmdl"
   },
   {
-    "id": "oil-balance",
+    "id": "balance",
     "category": "oil",
-    "name_hu": "Balance keverék (15 ml)",
-    "name_en": "Balance blend (15 ml)",
-    "short_hu": "Földes, nyugtató hangulatú illatkeverék.",
-    "short_en": "Grounding, calming aromatic blend.",
-    "long_hu": "Semleges, hangulatot leíró szöveg a Balance keverékről.",
-    "long_en": "Neutral, mood‑oriented description of the Balance blend.",
+    "name_hu": "Balance",
+    "name_en": "Balance",
+    "short_hu": "Fás, földes illat, amely segít a mindennapi harmónia megteremtésében.",
+    "short_en": "A woody, earthy aroma that helps create daily harmony.",
+    "long_hu": "Balance – a harmónia illata\nA Balance illóolaj keverék fás, földes illatával támogatja a kiegyensúlyozott mindennapokat. Ideális diffúzorban vagy talpmasszázshoz.\n\nHasználat\n- Diffúzorban párologtatva nyugodt légkört teremt.\n- Talpmasszázshoz hígítva alkalmazható.",
+    "long_en": "Balance – the scent of harmony\nBalance essential oil blend offers a woody, earthy aroma that supports balanced daily routines. Ideal for diffusing or diluted for foot massage.\n\nUsage\n- Diffuse for a calm atmosphere.\n- Dilute and use for foot massage.",
     "bullets_hu": [
-      "Földes, fás illatjegyek.",
-      "Esti rutin része lehet.",
-      "Illatosítóként használható."
+      "Fás, földes illat.",
+      "Diffúzorban nyugtató hatású.",
+      "Talpmasszázshoz is használható."
     ],
     "bullets_en": [
-      "Earthy, woody notes.",
-      "Can be part of an evening routine.",
-      "Ideal as a home fragrance."
+      "Woody, earthy aroma.",
+      "Calming effect when diffused.",
+      "Can be used for foot massage."
     ],
-    "price_hu": "0 Ft (példa ár)",
-    "price_en": "0.00 € (example)",
-    "fb_link": ""
+    "price_hu": "15 992 Ft",
+    "price_en": "43.04 EUR",
+    "image_hu": "img/oil_balance_hu_1.jpg",
+    "image_en": "img/oil_balance_en_1.jpg",
+    "fb_link": "https://www.facebook.com/Zoli.es.az.Olajok/posts/pfbid0QRn95yTuHp3AnseoVvzuWMTCdF7iAdTh6X29S8i3gQ8QvE1S38NqDaEurN91PBmdl"
   },
   {
-    "id": "oil-lavender",
+    "id": "lavender",
     "category": "oil",
-    "name_hu": "Levendula illóolaj (15 ml)",
-    "name_en": "Lavender essential oil (15 ml)",
-    "short_hu": "Klasszikus, lágy virágos illat.",
-    "short_en": "Classic, soft floral aroma.",
-    "long_hu": "Rövid, semleges leírás a levendula illóolajról.",
-    "long_en": "Short, neutral description of lavender essential oil.",
+    "name_hu": "Levendula",
+    "name_en": "Lavender",
+    "short_hu": "Lágy, virágos illat, amely nyugodtabb, pihenő atmoszférát teremt.",
+    "short_en": "A soft, floral aroma that helps create a calmer, more relaxed atmosphere.",
+    "long_hu": "Levendula – klasszikus pihenős illat\nA levendula az egyik legismertebb illóolaj, amely nyugalmat, pihenést és lassabb esti hangulatot idéz elő. Diffúzorban vagy bőrápoláshoz is használható.\n\nHasználat\n- Diffúzorban esti pihenéshez, olvasáshoz.\n- Hígítva bőrápoláshoz alkalmazható.",
+    "long_en": "Lavender – a classic relaxing aroma\nLavender is one of the best-known essential oils, associated with calm, rest and slower evenings. Use in a diffuser or diluted for skin care.\n\nUsage\n- Diffuse before bedtime for a peaceful atmosphere.\n- Dilute and apply for skin care.",
     "bullets_hu": [
-      "Lágy, virágos illat.",
-      "Sokak kedvence az esti rutin részeként.",
-      "Diffúzorban vagy illatként használható."
+      "Segíthet nyugodtabb hangulatot teremteni a hálóban.",
+      "Hígítva, csuklóra vagy tarkóra kenve mindennapi relaxációnak használható.",
+      "Kombinálható narancsal, hogy lágyabb, édesebb illatot kapj."
     ],
     "bullets_en": [
-      "Gentle, floral scent.",
-      "A favorite for many in the evening routine.",
-      "Can be used in a diffuser or as a personal scent."
+      "Can help create a calmer, more relaxed atmosphere in the bedroom.",
+      "Diluted, suitable for the wrists or back of the neck as an everyday relaxation ritual.",
+      "Blends well with orange for a softer, sweeter aromatic profile."
     ],
-    "price_hu": "0 Ft (példa ár)",
-    "price_en": "0.00 € (example)",
-    "fb_link": ""
+    "price_hu": "19 227 Ft",
+    "price_en": "52.64 EUR",
+    "image_hu": "img/oil_lavender_hu_1.jpg",
+    "image_en": "img/oil_lavender_en_1.jpg",
+    "fb_link": "https://www.facebook.com/Zoli.es.az.Olajok/posts/pfbid0QRn95yTuHp3AnseoVvzuWMTCdF7iAdTh6X29S8i3gQ8QvE1S38NqDaEurN91PBmdl"
   },
   {
-    "id": "oil-lemon",
+    "id": "lemon",
     "category": "oil",
-    "name_hu": "Citrom illóolaj (15 ml)",
-    "name_en": "Lemon essential oil (15 ml)",
-    "short_hu": "Friss, citrusos illat a napindításhoz.",
-    "short_en": "Fresh, citrus aroma to start the day.",
-    "long_hu": "Semleges leírás a citrom illóolajról, hangulatos használati ötletekkel.",
-    "long_en": "Neutral description of lemon essential oil with atmospheric usage ideas.",
+    "name_hu": "Citrom",
+    "name_en": "Lemon",
+    "short_hu": "Friss, citrusos illat, amely élénkíti a mindennapokat.",
+    "short_en": "A fresh, citrus aroma that brightens everyday moments.",
+    "long_hu": "Citrom – a frissesség illata\nA citrom illóolaj élén
+k, citrusos illatával frissíti a levegőt és a hangulatot. Diffúzorban vagy takarításhoz is használható.\n\nHasználat\n- Diffúzorban párologtatva energizáló légkört teremt.\n- Takarításhoz néhány csepp a vízbe.",
+    "long_en": "Lemon – the scent of freshness\nLemon essential oil brings a lively, citrus aroma to refresh the air and your mood. Use in a diffuser or for cleaning.\n\nUsage\n- Diffuse for an energizing atmosphere.\n- Add a few drops to cleaning water.",
     "bullets_hu": [
       "Élénk, citrusos illat.",
-      "Reggeli diffúzor keverékek része lehet.",
-      "Jól keverhető más citrusos olajokkal."
+      "Diffúzorban frissíti a levegőt.",
+      "Takarításhoz is használható."
     ],
     "bullets_en": [
-      "Bright, citrus aroma.",
-      "Can be part of a morning diffuser blend.",
-      "Pairs well with other citrus oils."
+      "Lively, citrus aroma.",
+      "Freshens the air when diffused.",
+      "Can be used for cleaning."
     ],
-    "price_hu": "0 Ft (példa ár)",
-    "price_en": "0.00 € (example)",
-    "fb_link": ""
+    "price_hu": "15 992 Ft",
+    "price_en": "25.62 EUR",
+    "image_hu": "img/oil_lemon_hu_1.jpg",
+    "image_en": "img/oil_lemon_en_1.jpg",
+    "fb_link": "https://www.facebook.com/Zoli.es.az.Olajok/posts/pfbid0QRn95yTuHp3AnseoVvzuWMTCdF7iAdTh6X29S8i3gQ8QvE1S38NqDaEurN91PBmdl"
   },
   {
-    "id": "oil-peppermint",
+    "id": "peppermint",
     "category": "oil",
-    "name_hu": "Borsmenta (Peppermint) illóolaj (15 ml)",
-    "name_en": "Peppermint essential oil (15 ml)",
-    "short_hu": "Friss, élénkítő illat.",
-    "short_en": "Fresh, invigorating aroma.",
-    "long_hu": "Semleges leírás a borsmenta illóolajról, fókusz és frissesség témában.",
-    "long_en": "Neutral description of peppermint essential oil focusing on freshness and clarity.",
+    "name_hu": "Borsmenta",
+    "name_en": "Peppermint",
+    "short_hu": "Hűsítő, friss illat, amely élénkíti a levegőt.",
+    "short_en": "A cooling, fresh aroma that invigorates the air.",
+    "long_hu": "Borsmenta – a frissesség élménye\nA borsmenta illóolaj hűsítő, mentás illatával frissíti a levegőt. Diffúzorban vagy hígítva bőrápoláshoz is használható.\n\nHasználat\n- Diffúzorban párologtatva élénkítő hatású.\n- Hígítva bőrápoláshoz alkalmazható.",
+    "long_en": "Peppermint – the experience of freshness\nPeppermint essential oil brings a cooling, minty aroma to refresh the air. Use in a diffuser or diluted for skin care.\n\nUsage\n- Diffuse for an invigorating effect.\n- Dilute and apply for skin care.",
     "bullets_hu": [
-      "Élénkítő illat.",
-      "Keverhető citrusos olajokkal.",
-      "Diffúzorban használható."
+      "Hűsítő, mentás illat.",
+      "Élénkítő hatás diffúzorban.",
+      "Bőrápoláshoz hígítva használható."
     ],
     "bullets_en": [
-      "Invigorating scent.",
-      "Pairs nicely with citrus oils.",
-      "Can be diffused."
+      "Cooling, minty aroma.",
+      "Invigorating effect when diffused.",
+      "Can be used diluted for skin care."
     ],
-    "price_hu": "0 Ft (példa ár)",
-    "price_en": "0.00 € (example)",
-    "fb_link": ""
+    "price_hu": "21 643 Ft",
+    "price_en": "43.75 EUR",
+    "image_hu": "img/oil_peppermint_hu_1.jpg",
+    "image_en": "img/oil_peppermint_en_1.jpg",
+    "fb_link": "https://www.facebook.com/Zoli.es.az.Olajok/posts/pfbid0QRn95yTuHp3AnseoVvzuWMTCdF7iAdTh6X29S8i3gQ8QvE1S38NqDaEurN91PBmdl"
   },
   {
-    "id": "oil-airx",
+    "id": "air_x",
     "category": "oil",
-    "name_hu": "Air-X keverék (15 ml)",
-    "name_en": "Air-X blend (15 ml)",
-    "short_hu": "Tiszta, friss illat a levegő illatosításához.",
-    "short_en": "Clean, fresh aroma to scent the air.",
-    "long_hu": "Semleges, levegő‑frissítő jellegű leírás az Air-X keverékről.",
-    "long_en": "Neutral, air‑freshening description of the Air‑X blend.",
+    "name_hu": "Air-X",
+    "name_en": "Air-X",
+    "short_hu": "Tiszta, friss illat, amely támogatja a levegő frissességét.",
+    "short_en": "A clean, fresh aroma that supports air freshness.",
+    "long_hu": "Air-X – a tiszta levegő illata\nAz Air-X illóolaj keverék citrusos és fás jegyekkel frissíti a levegőt. Diffúzorban használva tiszta, üde légkört teremt.\n\nHasználat\n- Diffúzorban párologtatva frissíti a levegőt.\n- Otthoni terekben kellemes atmoszférát biztosít.",
+    "long_en": "Air-X – the scent of clean air\nAir-X essential oil blend features citrus and woody notes to refresh the air. Use in a diffuser for a clean, uplifting atmosphere.\n\nUsage\n- Diffuse to freshen the air.\n- Creates a pleasant atmosphere in home spaces.",
     "bullets_hu": [
-      "Friss, tiszta illat.",
-      "Otthoni levegő illatosításához.",
-      "Diffúzorban használható."
+      "Citrusos, fás illat.",
+      "Diffúzorban tisztítja a levegőt.",
+      "Otthoni terekhez ajánlott."
     ],
     "bullets_en": [
-      "Fresh, clean fragrance.",
-      "Great for scenting the air at home.",
-      "Designed for use in a diffuser."
+      "Citrus and woody aroma.",
+      "Cleanses the air when diffused.",
+      "Recommended for home spaces."
     ],
-    "price_hu": "0 Ft (példa ár)",
-    "price_en": "0.00 € (example)",
-    "fb_link": ""
+    "price_hu": "23 082 Ft",
+    "price_en": "56.20 EUR",
+    "image_hu": "img/oil_air_x_hu_1.jpg",
+    "image_en": "img/oil_air_x_en_1.jpg",
+    "fb_link": "https://www.facebook.com/Zoli.es.az.Olajok/posts/pfbid0QRn95yTuHp3AnseoVvzuWMTCdF7iAdTh6X29S8i3gQ8QvE1S38NqDaEurN91PBmdl"
   },
   {
-    "id": "oil-frankincense",
+    "id":
+ "frankincense",
     "category": "oil",
-    "name_hu": "Tömjén (Frankincense) illóolaj (15 ml)",
-    "name_en": "Frankincense essential oil (15 ml)",
-    "short_hu": "Meleg, fás illat a nyugodt pillanatokhoz.",
-    "short_en": "Warm, woody aroma for quiet moments.",
-    "long_hu": "Semleges, hangulati leírás a tömjén illóolajról.",
-    "long_en": "Neutral, mood‑focused description of frankincense essential oil.",
+    "name_hu": "Tömjén",
+    "name_en": "Frankincense",
+    "short_hu": "Meleg, fás illat, amely támogatja a mindennapi jólétet.",
+    "short_en": "A warm, woody aroma that supports everyday wellness.",
+    "long_hu": "Tömjén – a mindennapi jólét illata\nA tömjén illóolaj meleg, fás illatával hozzájárul a kiegyensúlyozott mindennapokhoz. Diffúzorban vagy bőrápoláshoz is használható.\n\nHasználat\n- Diffúzorban párologtatva nyugodt légkört teremt.\n- Hígítva bőrápoláshoz alkalmazható.",
+    "long_en": "Frankincense – the scent of everyday wellness\nFrankincense essential oil offers a warm, woody aroma for balanced daily routines. Use in a diffuser or diluted for skin care.\n\nUsage\n- Diffuse for a calm atmosphere.\n- Dilute and apply for skin care.",
     "bullets_hu": [
       "Meleg, fás illat.",
-      "Esti rutin részeként is használható.",
-      "Diffúzorban kellemes hangulatot ad."
+      "Diffúzorban nyugtató hatású.",
+      "Bőrápoláshoz hígítva használható."
     ],
     "bullets_en": [
-      "Warm, woody scent.",
-      "Can be part of an evening wind‑down.",
-      "Creates a cosy diffuser atmosphere."
+      "Warm, woody aroma.",
+      "Calming effect when diffused.",
+      "Can be used diluted for skin care."
     ],
-    "price_hu": "0 Ft (példa ár)",
-    "price_en": "0.00 € (example)",
-    "fb_link": ""
+    "price_hu": "52 107 Ft",
+    "price_en": "135.89 EUR",
+    "image_hu": "img/oil_frankincense_hu_1.jpg",
+    "image_en": "img/oil_frankincense_en_1.jpg",
+    "fb_link": "https://www.facebook.com/Zoli.es.az.Olajok/posts/pfbid0QRn95yTuHp3AnseoVvzuWMTCdF7iAdTh6X29S8i3gQ8QvE1S38NqDaEurN91PBmdl"
   },
   {
-    "id": "oil-zengest",
+    "id": "zengest",
     "category": "oil",
-    "name_hu": "ZenGest keverék (15 ml)",
-    "name_en": "ZenGest blend (15 ml)",
-    "short_hu": "Kellemes, fűszeres‑gyógynövényes illat.",
-    "short_en": "Pleasant, spicy‑herbal aroma.",
-    "long_hu": "Semleges, illatra fókuszáló leírás a ZenGest keverékről.",
-    "long_en": "Neutral, aroma‑focused description of the ZenGest blend.",
+    "name_hu": "ZenGest",
+    "name_en": "ZenGest",
+    "short_hu": "Fűszeres, gyógynövényes illat, amely támogatja a mindennapi jó közérzetet.",
+    "short_en": "A spicy, herbal aroma that supports everyday well-being.",
+    "long_hu": "ZenGest – a kiegyensúlyozottság illata\nA ZenGest illóolaj keverék fűszeres, gyógynövényes illatával hozzájárul a mindennapi jó közérzethez. Diffúzorban vagy hígítva bőrápoláshoz is használható.\n\nHasználat\n- Diffúzorban párologtatva kiegyensúlyozott légkört teremt.\n- Hígítva bőrápoláshoz alkalmazható.",
+    "long_en": "ZenGest – the scent of balance\nZenGest essential oil blend offers a spicy, herbal aroma for everyday well-being. Use in a diffuser or diluted for skin care.\n\nUsage\n- Diffuse for a balanced atmosphere.\n- Dilute and apply for skin care.",
     "bullets_hu": [
-      "Fűszeres‑gyógynövényes illatjegyek.",
-      "Mindennapi használatra tervezve.",
-      "Diffúzorban vagy illatként használható."
+      "Fűszeres, gyógynövényes illat.",
+      "Kiegyensúlyozott légkört teremt.",
+      "Bőrápoláshoz hígítva használható."
     ],
     "bullets_en": [
-      "Spicy‑herbal notes.",
-      "Designed for everyday use.",
-      "Suitable for diffusing or personal aroma."
+      "Spicy, herbal aroma.",
+      "Creates a balanced atmosphere.",
+      "Can be used diluted for skin care."
     ],
-    "price_hu": "0 Ft (példa ár)",
-    "price_en": "0.00 € (example)",
-    "fb_link": ""
+    "price_hu": "23 082 Ft",
+    "price_en": "61.18 EUR",
+    "image_hu": "img/oil_zengest_hu_1.jpg",
+    "image_en": "img/oil_zengest_en_1.jpg",
+    "fb_link": "https://www.facebook.com/Zoli.es.az.Olajok/posts/pfbid0QRn95yTuHp3AnseoVvzuWMTCdF7iAdTh6X29S8i3gQ8QvE1S38NqDaEurN91PBmdl"
   },
   {
-    "id": "oil-wild-orange",
+    "id": "wild_orange",
     "category": "oil",
-    "name_hu": "Vadnarancs (Wild Orange) illóolaj (15 ml)",
-    "name_en": "Wild Orange essential oil (15 ml)",
-    "short_hu": "Édes, vidám citrusos illat.",
-    "short_en": "Sweet, cheerful citrus aroma.",
-    "long_hu": "Semleges, hangulatjavító jellegű leírás a vadnarancs illatáról.",
-    "long_en": "Neutral, mood‑lifting style description of Wild Orange aroma.",
+    "name_hu": "Vadnarancs",
+    "name_en": "Wild Orange",
+    "short_hu": "Édes, citrusos illat, amely feldobja a mindennapokat.",
+    "short_en": "A sweet, citrus aroma that uplifts everyday moments.",
+    "long_hu": "Vadnarancs – a jókedv illata\nA vadnarancs illóolaj édes, citrusos illatával feldobja a hangulatot. Diffúzorban vagy takarításhoz is használható.\n\nHasználat\n- Diffúzorban párologtatva vidám légkört teremt.\n- Takarításhoz néhány csepp a vízbe.",
+    "long_en": "Wild Orange – the scent of joy\nWild Orange essential oil brings a sweet, citrus aroma to uplift your mood. Use in a diffuser or for cleaning.\n\nUsage\n- Diffuse for a cheerful atmosphere.\n- Add a few drops to cleaning water.",
     "bullets_hu": [
-      "Édes, gyümölcsös illat.",
-      "Reggeli diffúzor keverék része lehet.",
-      "Jól kombinálható más citrusos olajokkal."
+      "Édes, citrusos illat.",
+      "Vidám hangulatot teremt.",
+      "
+Takarításhoz is használható."
     ],
     "bullets_en": [
-      "Sweet, fruity scent.",
-      "Great in morning diffuser blends.",
-      "Mixes beautifully with other citrus oils."
+      "Sweet, citrus aroma.",
+      "Creates a cheerful mood.",
+      "Can be used for cleaning."
     ],
-    "price_hu": "0 Ft (példa ár)",
-    "price_en": "0.00 € (example)",
-    "fb_link": ""
+    "price_hu": "10 282 Ft",
+    "price_en": "23.84 EUR",
+    "image_hu": "img/oil_wild_orange_hu_1.jpg",
+    "image_en": "img/oil_wild_orange_en_1.jpg",
+    "fb_link": "https://www.facebook.com/Zoli.es.az.Olajok/posts/pfbid0QRn95yTuHp3AnseoVvzuWMTCdF7iAdTh6X29S8i3gQ8QvE1S38NqDaEurN91PBmdl"
   },
   {
-    "id": "oil-oregano",
+    "id": "oregano",
     "category": "oil",
-    "name_hu": "Oregánó illóolaj (15 ml)",
-    "name_en": "Oregano essential oil (15 ml)",
-    "short_hu": "Erőteljes, fűszeres illat.",
-    "short_en": "Strong, spicy aroma.",
-    "long_hu": "Semleges leírás az oregánó illóolajról, illatára és intenzitására fókuszálva.",
-    "long_en": "Neutral description of oregano essential oil focusing on its aroma and intensity.",
+    "name_hu": "Oregánó",
+    "name_en": "Oregano",
+    "short_hu": "Fűszeres, intenzív illat, amely támogatja a mindennapi jólétet.",
+    "short_en": "A spicy, intense aroma that supports everyday wellness.",
+    "long_hu": "Oregánó – az intenzív frissesség illata\nAz oregánó illóolaj fűszeres, karakteres illatával különleges élményt nyújt. Diffúzorban vagy hígítva bőrápoláshoz is használható.\n\nHasználat\n- Diffúzorban párologtatva intenzív légkört teremt.\n- Hígítva bőrápoláshoz alkalmazható.",
+    "long_en": "Oregano – the scent of intense freshness\nOregano essential oil offers a spicy, robust aroma for a unique experience. Use in a diffuser or diluted for skin care.\n\nUsage\n- Diffuse for an intense atmosphere.\n- Dilute and apply for skin care.",
     "bullets_hu": [
-      "Erőteljes, jellegzetes illat.",
-      "Csak kis mennyiségben ajánlott illatosításra.",
-      "Más olajokkal keverve is használható."
+      "Fűszeres, karakteres illat.",
+      "Intenzív légkört teremt.",
+      "Bőrápoláshoz hígítva használható."
     ],
     "bullets_en": [
-      "Strong, characteristic scent.",
-      "A little goes a long way in aroma blends.",
-      "Can be used together with other oils."
+      "Spicy, robust aroma.",
+      "Creates an intense atmosphere.",
+      "Can be used diluted for skin care."
     ],
-    "price_hu": "0 Ft (példa ár)",
-    "price_en": "0.00 € (example)",
-    "fb_link": ""
+    "price_hu": "34 442 Ft",
+    "price_en": "50.86 EUR",
+    "image_hu": "img/oil_oregano_hu_1.jpg",
+    "image_en": "img/oil_oregano_en_1.jpg",
+    "fb_link": "https://www.facebook.com/Zoli.es.az.Olajok/posts/pfbid0QRn95yTuHp3AnseoVvzuWMTCdF7iAdTh6X29S8i3gQ8QvE1S38NqDaEurN91PBmdl"
   },
   {
-    "id": "kit-family",
+    "id": "family_kit",
     "category": "kit",
-    "name_hu": "Családi csomag regisztrációval",
+    "name_hu": "Family kit regisztrációval",
     "name_en": "Family kit with registration",
-    "short_hu": "Alap esszenciális olajválogatás a családi mindennapokhoz.",
-    "short_en": "Core essential oil selection for everyday family use.",
-    "long_hu": "Általános leírás a családi csomagról, mit tartalmazhat és kinek ajánlott – egészségügyi ígéretek nélkül.",
-    "long_en": "General description of the family kit, what it may contain and who it suits – without health claims.",
+    "short_hu": "Alapvető olajokat tartalmazó kezdőcsomag, regisztrációval.",
+    "short_en": "Starter kit with essential oils, includes registration.",
+    "long_hu": "Family kit – a család kedvenc kezdőcsomagja\nEz a készlet a legnépszerűbb doTERRA olajokat tartalmazza, hogy a család minden tagja megtalálja a számára megfelelő illatot. A csomag tartalmazza a regisztrációt is, így további kedvezményekhez juthatsz.\n\nHasználat\n- Mindennapi wellness rutin részeként.\n- Ajándéknak is kiváló választás.",
+    "long_en": "Family kit – the favorite starter pack for families\nThis kit contains the most popular doTERRA oils, so every family member can find their favorite scent. The package includes registration, giving you access to further discounts.\n\nUsage\n- As part of your daily wellness routine.\n- Also a great gift option.",
     "bullets_hu": [
-      "Több népszerű alapolaj egy csomagban.",
-      "Regisztrációs lehetőséggel.",
-      "Kedvezőbb egységár a külön vásárláshoz képest (példa)."
+      "Legnépszerűbb olajokat tartalmazza.",
+      "Regisztrációval kedvezményekhez juthatsz.",
+      "Ajándéknak is ideális."
     ],
     "bullets_en": [
-      "Several popular basic oils in one package.",
-      "Includes the option for registration.",
-      "More favourable unit price compared to buying separately (example)."
+      "Contains the most popular oils.",
+      "Registration gives you access to discounts.",
+      "Ideal as a gift."
     ],
-    "price_hu": "0 Ft (példa ár)",
-    "price_en": "0.00 € (example)",
-    "fb_link": ""
+    "price_hu": "98 543 Ft",
+    "price_en": "242.89 EUR",
+    "image_hu": "img/kit_family_hu_1.jpg",
+    "image_en": "img/kit_family_en_1.jpg",
+    "fb_link": "https://www.facebook.com/Zoli.es.az.Olajok/posts/pfbid0QRn95yTuHp3AnseoVvzuWMTCdF7iAdTh6X29S8i3gQ8QvE1S38NqDaEurN91PBmdl"
   },
   {
-    "id": "kit-aromatouch",
+    "id": "aromatouch_kit",
     "category": "kit",
-    "name_hu": "AromaTouch Technique csomag regisztrációval",
+    "name_hu": "AromaTouch Technique kit regisztrációval",
     "name_en": "AromaTouch Technique kit with registration",
-    "short_hu": "Kifejezetten az AromaTouch élményhez összeállított olajcsomag.",
-    "short_en": "Oil collection designed for the AromaTouch experience.",
-    "long_hu": "Semleges, kedvcsináló leírás az AromaTouch csomagról, a hangulati élményre fókuszálva.",
-    "long_en": "Neutral, inviting description of the AromaTouch kit, focusing on the sensory experience.",
+    "short_hu": "Különleges masszázsélményt nyújtó készlet, regisztrációval.",
+    "short_en": "A special massage experience kit, includes registration.",
+    "long_hu": "AromaTouch Technique kit – a mass
+zázs élménye otthon\nEz a készlet a doTERRA AromaTouch masszázs technikához szükséges olajokat tartalmazza, regisztrációval együtt. Ideális választás wellness-rajongóknak.\n\nHasználat\n- Otthoni masszázsélményhez.\n- Wellness rutin részeként.",
+    "long_en": "AromaTouch Technique kit – the massage experience at home\nThis kit contains the oils needed for the doTERRA AromaTouch massage technique, including registration. Perfect for wellness enthusiasts.\n\nUsage\n- For at-home massage experiences.\n- As part of your wellness routine.",
     "bullets_hu": [
-      "Többféle illat egy csomagban.",
-      "AromaTouch technikához ajánlott olajok.",
-      "Regisztrációs lehetőséggel."
+      "AromaTouch masszázshoz szükséges olajok.",
+      "Regisztrációval kedvezményekhez juthatsz.",
+      "Otthoni wellness élmény."
     ],
     "bullets_en": [
-      "Multiple aromas in one kit.",
-      "Oils recommended for the AromaTouch technique.",
-      "Includes an option for registration."
+      "Oils needed for AromaTouch massage.",
+      "Registration gives you access to discounts.",
+      "Wellness experience at home."
     ],
-    "price_hu": "0 Ft (példa ár)",
-    "price_en": "0.00 € (example)",
-    "fb_link": ""
+    "price_hu": "75 951 Ft",
+    "price_en": "202.43 EUR",
+    "image_hu": "img/kit_aromatouch_hu_1.jpg",
+    "image_en": "img/kit_aromatouch_en_1.jpg",
+    "fb_link": "https://www.facebook.com/Zoli.es.az.Olajok/posts/pfbid0QRn95yTuHp3AnseoVvzuWMTCdF7iAdTh6X29S8i3gQ8QvE1S38NqDaEurN91PBmdl"
   },
   {
-    "id": "kit-kids",
+    "id": "kids_kit",
     "category": "kit",
-    "name_hu": "Gyerek kollekció regisztrációval",
+    "name_hu": "Kids collection regisztrációval",
     "name_en": "Kids collection with registration",
-    "short_hu": "Kifejezetten gyerekekre hangolt, gyengédebb illatválogatás.",
-    "short_en": "Gentler aromatic collection designed with kids in mind.",
-    "long_hu": "Semleges, óvatos leírás a gyerek kollekcióról – mindig a hivatalos útmutatást és hígítást hangsúlyozva.",
-    "long_en": "Neutral, cautious description of the kids collection – highlighting official guidance and dilution.",
+    "short_hu": "Gyermekek számára összeállított olajkollekció, regisztrációval.",
+    "short_en": "Essential oil collection for children, includes registration.",
+    "long_hu": "Kids collection – a gyermekek kedvenc illatai\nEz a készlet kifejezetten gyermekek számára lett összeállítva, hogy ők is élvezhessék a doTERRA olajok világát. A csomag tartalmazza a regisztrációt is.\n\nHasználat\n- Mindennapi wellness rutin gyerekeknek.\n- Ajándéknak is kiváló.",
+    "long_en": "Kids collection – favorite scents for children\nThis kit is specially designed for children to enjoy the world of doTERRA oils. The package includes registration.\n\nUsage\n- For children's daily wellness routine.\n- Also a great gift.",
     "bullets_hu": [
-      "Gyengédebb illatok válogatása.",
-      "Kifejezetten gyerekeknek tervezett csomag.",
-      "Regisztrációs lehetőséggel."
+      "Gyermekek számára készült olajok.",
+      "Regisztrációval kedvezményekhez juthatsz.",
+      "Ajándéknak is ideális."
     ],
     "bullets_en": [
-      "Selection of gentler aromas.",
-      "Collection designed especially for children.",
-      "Includes the option for registration."
+      "Oils designed for children.",
+      "Registration gives you access to discounts.",
+      "Ideal as a gift."
     ],
-    "price_hu": "0 Ft (példa ár)",
-    "price_en": "0.00 € (example)",
-    "fb_link": ""
+    "price_hu": "74 950 Ft",
+    "price_en": "193.87 EUR",
+    "image_hu": "img/kit_kids_hu_1.jpg",
+    "image_en": "img/kit_kids_en_1.jpg",
+    "fb_link": "https://www.facebook.com/Zoli.es.az.Olajok/posts/pfbid0QRn95yTuHp3AnseoVvzuWMTCdF7iAdTh6X29S8i3gQ8QvE1S38NqDaEurN91PBmdl"
   }
 ]
