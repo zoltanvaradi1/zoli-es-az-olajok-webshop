@@ -133,12 +133,23 @@ function updateCartSummary() {
   if (cartTotal) cartTotal.textContent = totalHUF + ' Ft';
 }
 
+function clearCart() {
+  cart = {};
+  saveCart();
+  updateCartSummary();
+  renderCartModal();
+}
+
 // --- CART MODAL ---
 function setupCartModal() {
   const closeBtn = document.getElementById('close-cart-modal');
   if (closeBtn) closeBtn.onclick = () => document.getElementById('cart-modal').style.display = 'none';
   const checkoutBtn = document.getElementById('checkout-btn');
-  if (checkoutBtn) checkoutBtn.onclick = () => showOrderSection();
+  if (checkoutBtn) checkoutBtn.onclick = () => {
+    sendOrderEmail();
+    clearCart();
+    document.getElementById('cart-modal').style.display = 'none';
+  };
 }
 function openCartModal() {
   renderCartModal();
@@ -211,6 +222,7 @@ function sendOrderEmail() {
   const subject = encodeURIComponent(lang === 'hu' ? 'Új rendelés – Zoli és az Olajok' : 'New order – Zoli és az Olajok');
   const body = encodeURIComponent(buildOrderText());
   window.location.href = `mailto:sntsnt75@gmail.com?subject=${subject}&body=${body}`;
+  clearCart();
 }
 
 // --- EXPORT FOR INLINE EVENTS ---
