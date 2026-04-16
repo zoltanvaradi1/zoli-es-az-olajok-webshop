@@ -81,6 +81,7 @@ function addToCart(id) {
   cart[id] = (cart[id] || 0) + 1;
   saveCart();
   updateCartSummary();
+  renderCartModal();
 }
 function removeFromCart(id) {
   if (cart[id]) {
