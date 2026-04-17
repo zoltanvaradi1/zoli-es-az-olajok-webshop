@@ -27,6 +27,18 @@ function updateOrderTextarea() {
   const address = document.getElementById('order-address').value.trim();
   const phone = document.getElementById('order-phone').value.trim();
   document.getElementById('order-email-text').value = buildOrderText(name, address, phone);
+
+    // --- Gomb engedélyezése/letiltása ---
+  const checkoutBtn = document.getElementById('checkout-btn');
+  const items = getCartItems();
+  if (checkoutBtn) {
+    if (name && address && phone && items.length > 0) {
+      checkoutBtn.disabled = false;
+    } else {
+      checkoutBtn.disabled = true;
+    }
+  }
+
 }
 
 // --- LOAD PRODUCTS ---
