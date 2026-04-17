@@ -237,6 +237,7 @@ function renderCartModal() {
   `).join('');
   const { totalHUF, totalEUR } = getCartTotal();
   summaryDiv.innerHTML = `${lang === 'hu' ? 'Összesen:' : 'Total:'} ${totalHUF} Ft / ${totalEUR.toFixed(2)} EUR`;
+  if (typeof updateOrderTextarea === 'function') updateOrderTextarea();
 }
 
 // --- ORDER BY EMAIL ---
