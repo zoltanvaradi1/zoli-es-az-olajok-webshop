@@ -17,6 +17,7 @@ header {
   position: sticky;
   top: 0;
   z-index: 10;
+  gap: 1rem;
 }
 
 .header-left {
@@ -27,7 +28,7 @@ header {
 
 .site-logo {
   height: 48px;
-  margin-right: 0.5rem;
+  margin-right: 1rem;
   vertical-align: middle;
 }
 
@@ -63,7 +64,6 @@ header h1 {
   align-items: center;
   gap: 0.5rem;
 }
-
 
 nav {
   margin-top: 0.5rem;
@@ -159,7 +159,8 @@ section {
   box-shadow: 0 1px 6px rgba(124,77,255,0.05);
   display: flex;
   flex-direction: column;
-  align-items: center;
+ 
+ align-items: center;
   transition: box-shadow 0.2s;
 }
 
@@ -356,8 +357,20 @@ section {
   transition: background 0.2s;
 }
 
-#checkout-btn:hover {
-  background: #512da8;
+#checkout-btn:hover:enabled {
+  background:
+ #512da8;
+}
+
+/* --- Gombok disabled stílusa --- */
+button:disabled,
+.product-card button:disabled,
+#checkout-btn:disabled {
+  background: #cccccc !important;
+  color: #888888 !important;
+  cursor: not-allowed !important;
+  border: none;
+  opacity: 0.7;
 }
 
 /* Language selector page */
@@ -395,23 +408,8 @@ body.lang-selector {
   transition: background 0.2s;
 }
 
-.btn:hover {
+.btn:hover:enabled {
   background: #512da8;
-}
-
-.site-logo {
-  height: 48px;
-  margin-right: 1rem;
-  vertical-align: middle;
-}
-header {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-}
-header h1 {
-  display: inline-block;
-  vertical-align: middle;
 }
 
 /* Responsive */
@@ -420,8 +418,7 @@ header h1 {
     flex-direction: column;
     align-items: stretch;
   }
-  .header
--center {
+  .header-center {
     justify-content: flex-start;
     flex-wrap: wrap;
     margin: 0.5rem 0;
@@ -429,13 +426,4 @@ header h1 {
   .header-right {
     justify-content: flex-end;
   }
-}
-
-button:disabled,
-#checkout-btn:disabled {
-  background: #cccccc !important;
-  color: #888888 !important;
-  cursor: not-allowed !important;
-  border: none;
-  opacity: 0.7;
 }
