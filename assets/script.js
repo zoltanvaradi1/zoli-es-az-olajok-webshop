@@ -233,6 +233,7 @@ function renderCartModal() {
   if (items.length === 0) {
     itemsDiv.innerHTML = `<p>${lang === 'hu' ? 'A kosár üres.' : 'Your cart is empty.'}</p>`;
     summaryDiv.innerHTML = '';
+    if (typeof updateOrderTextarea === 'function') updateOrderTextarea();
     return;
   }
   itemsDiv.innerHTML = items.map(item => `
