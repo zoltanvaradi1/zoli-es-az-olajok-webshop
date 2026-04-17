@@ -163,6 +163,7 @@ function clearCart() {
   saveCart();
   updateCartSummary();
   renderCartModal();
+  if (typeof updateOrderTextarea === 'function') updateOrderTextarea();
 }
 
 // --- CART MODAL ---
