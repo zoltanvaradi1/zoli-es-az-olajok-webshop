@@ -102,24 +102,7 @@
         Az email tartalmazza a kiválasztott termékeket, mennyiségeket, végösszeget, valamint kérjük add meg a neved, címed és telefonszámod.<br>
         Email cím: <a href="mailto:sntsnt75@gmail.com">sntsnt75@gmail.com</a>
       </p>
-<div id="order-email-section" style="display:none;">
-  <h3>Megrendelés adatai</h3>
-  <label>
-    Név:
-    <input type="text" id="order-name" required>
-  </label><br>
-  <label>
-    Cím:
-    <input type="text" id="order-address" required>
-  </label><br>
-  <label>
-    Telefonszám:
-    <input type="text" id="order-phone" required>
-  </label><br><br>
-  <textarea id="order-email-text" rows="8" readonly></textarea>
-  <p>Másold ki a szöveget, vagy kattints a „Megrendelés e-mailben” gombra!</p>
-  <button id="send-order-btn">Megrendelés e-mailben</button>
-</div>
+
     </section>
   </main>
 
@@ -131,16 +114,32 @@
     </div>
   </div>
 
-  <!-- Cart Modal -->
-  <div id="cart-modal" class="modal" style="display:none;">
-    <div class="modal-content">
-      <span class="close" id="close-cart-modal">&times;</span>
-      <h3>Kosár tartalma</h3>
-      <div id="cart-items"></div>
-      <div id="cart-summary-modal"></div>
-      <button id="checkout-btn">Megrendelés e-mailben</button>
+
+<!-- Cart Modal -->
+<div id="cart-modal" class="modal" style="display:none;">
+  <div class="modal-content">
+    <span class="close" id="close-cart-modal">&times;</span>
+    <h3>Kosár tartalma</h3>
+    <div id="cart-items"></div>
+    <div id="cart-summary-modal"></div>
+    <div id="order-fields">
+      <label>
+        Név:
+        <input type="text" id="order-name" required>
+      </label><br>
+      <label>
+        Cím:
+        <input type="text" id="order-address" required>
+      </label><br>
+      <label>
+        Telefonszám:
+        <input type="text" id="order-phone" required>
+      </label><br><br>
+      <textarea id="order-email-text" rows="6" readonly></textarea>
     </div>
+    <button id="checkout-btn">Megrendelés e-mailben</button>
   </div>
+</div>
 
   <script src="../assets/script.js"></script>
 </body>

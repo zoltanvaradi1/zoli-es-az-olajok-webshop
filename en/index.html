@@ -101,24 +101,7 @@
         The email will include your selected products, quantities, total, and please provide your name, address, and phone number.<br>
         Email: <a href="mailto:sntsnt75@gmail.com">sntsnt75@gmail.com</a>
       </p>
-      <div id="order-email-section" style="display:none;">
-  <h3>Order Details</h3>
-  <label>
-    Name:
-    <input type="text" id="order-name" required>
-  </label><br>
-  <label>
-    Address:
-    <input type="text" id="order-address" required>
-  </label><br>
-  <label>
-    Phone:
-    <input type="text" id="order-phone" required>
-  </label><br><br>
-  <textarea id="order-email-text" rows="8" readonly></textarea>
-  <p>Copy the text or click the “Order by Email” button!</p>
-  <button id="send-order-btn">Order by Email</button>
-</div>
+     
     </section>
   </main>
 
@@ -130,16 +113,31 @@
     </div>
   </div>
 
-  <!-- Cart Modal -->
-  <div id="cart-modal" class="modal" style="display:none;">
-    <div class="modal-content">
-      <span class="close" id="close-cart-modal">&times;</span>
-      <h3>Cart Contents</h3>
-      <div id="cart-items"></div>
-      <div id="cart-summary-modal"></div>
-      <button id="checkout-btn">Order by Email</button>
+<!-- Cart Modal -->
+<div id="cart-modal" class="modal" style="display:none;">
+  <div class="modal-content">
+    <span class="close" id="close-cart-modal">&times;</span>
+    <h3>Cart content</h3>
+    <div id="cart-items"></div>
+    <div id="cart-summary-modal"></div>
+    <div id="order-fields">
+      <label>
+        Name:
+        <input type="text" id="order-name" required>
+      </label><br>
+      <label>
+        Address:
+        <input type="text" id="order-address" required>
+      </label><br>
+      <label>
+        Phone:
+        <input type="text" id="order-phone" required>
+      </label><br><br>
+      <textarea id="order-email-text" rows="6" readonly></textarea>
     </div>
+    <button id="checkout-btn">Order by e-mail</button>
   </div>
+</div>
 
   <script src="../assets/script.js"></script>
 </body>

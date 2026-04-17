@@ -157,16 +157,50 @@ function clearCart() {
 function setupCartModal() {
   const closeBtn = document.getElementById('close-cart-modal');
   if (closeBtn) closeBtn.onclick = () => document.getElementById('cart-modal').style.display = 'none';
-  const checkoutBtn = document.getElementById('checkout-btn');
-  if (checkoutBtn) checkoutBtn.onclick = () => {
-    sendOrderEmail();
-    clearCart();
-    document.getElementById('cart-modal').style.display = 'none';
-  };
+  
+  
+ const checkoutBtn = document.getElementById('checkout-btn');
+if (checkoutBtn) checkoutBtn.onclick = () => {
+  const name = document.getElementById('order-name').value.trim();
+  const address = document.getElementById('order-address').value.trim();
+  const phone = document.getElementById('order-phone').value.trim();
+  if (!name || !address || !phone) {
+    alert(lang === 'hu'
+      ? 'Kérjük, add meg a neved, címed és telefonszámod!'
+      : 'Please provide your name, address, and phone number!');
+    return;
+  }
+  const subject = encodeURIComponent(lang === 'hu' ? 'Új rendelés – Zoli és az Olajok' : 'New order – Zoli és az Olajok');
+  const body = encodeURIComponent(buildOrderText(name, address, phone));
+  window.location.href = `mailto:sntsnt75@gmail.com?subject=${subject}&body=${body}`;
+  clearCart();
+  // ürítsd az input mezőket is, ha szeretnéd:
+  document.getElementById('order-name').value = '';
+  document.getElementById('order-address').value = '';
+  document.getElementById('order-phone').value = '';
+  document.getElementById('order-email-text').value = '';
+  document.getElementById('cart-modal').style.display = 'none';
+};
 }
+
+function updateOrderTextarea() {
+  const name = document.getElementById('order-name').value.trim();
+  const address = document.getElementById('order-address').value.trim();
+  const phone = document.getElementById('order-phone').value.trim();
+  document.getElementById('order-email-text').value = buildOrderText(name, address, phone);
+}
+
 function openCartModal() {
   renderCartModal();
   document.getElementById('cart-modal').style.display = 'block';
+
+  // --- ÚJ: rendelési mezők eseménykezelői ---
+  ['order-name', 'order-address', 'order-phone'].forEach(id => {
+    const el = document.getElementById(id);
+    if (el) el.oninput = updateOrderTextarea;
+  });
+  updateOrderTextarea(); // első megnyitáskor is frissüljön
+
 }
 function renderCartModal() {
   const itemsDiv = document.getElementById('cart-items');
@@ -194,21 +228,7 @@ function renderCartModal() {
 }
 
 // --- ORDER BY EMAIL ---
-function setupOrderSection() {
-  const orderBtn = document.getElementById('send-order-btn');
-  if (orderBtn) orderBtn.onclick = () => sendOrderEmail();
-  const checkoutBtn = document.getElementById('checkout-btn');
-  if (checkoutBtn) checkoutBtn.onclick = () => showOrderSection();
-}
-function showOrderSection() {
-  document.getElementById('cart-modal').style.display = 'none';
-  const section = document.getElementById('order-email-section');
-  if (!section) return;
-  section.style.display = 'block';
-  const textarea = document.getElementById('order-email-text');
-  textarea.value = buildOrderText();
-  textarea.select();
-}
+
 function buildOrderText(name, address, phone) {
   const items = getCartItems();
   if (items.length === 0) return lang === 'hu' ? 'A kosár üres.' : 'Your cart is empty.';
