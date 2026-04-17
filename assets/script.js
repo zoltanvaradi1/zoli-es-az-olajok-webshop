@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', () => {
   loadProducts();
   setupCartSummary();
   setupCartModal();
-  setupOrderSection();
+  
 
   ['order-name', 'order-address', 'order-phone'].forEach(id => {
     const el = document.getElementById(id);
