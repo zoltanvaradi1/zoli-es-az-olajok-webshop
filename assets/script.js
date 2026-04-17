@@ -20,6 +20,13 @@ document.addEventListener('DOMContentLoaded', () => {
     if (el) el.oninput = updateOrderTextarea;
   });
 
+  // --- Kosár törlése gombok ---
+  const clearCartBtn = document.getElementById('clear-cart-btn');
+  if (clearCartBtn) clearCartBtn.onclick = () => clearCart();
+
+  const clearCartBtnHeader = document.getElementById('clear-cart-btn-header');
+  if (clearCartBtnHeader) clearCartBtnHeader.onclick = () => clearCart();
+
 });
 
 function updateOrderTextarea() {

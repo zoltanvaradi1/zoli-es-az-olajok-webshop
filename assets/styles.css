@@ -346,6 +346,23 @@ section {
   margin-bottom: 1rem;
 }
 
+
+
+#clear-cart-btn, #clear-cart-btn-header {
+  background: #e57373;
+  color: #fff;
+  margin-left: 0.5rem;
+  border: none;
+  border-radius: 1rem;
+  padding: 0.5rem 1.5rem;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background 0.2s;
+}
+#clear-cart-btn:hover, #clear-cart-btn-header:hover {
+  background: #b71c1c;
+}
+
 #checkout-btn {
   background: #7c4dff;
   color: #fff;
@@ -411,6 +428,8 @@ body.lang-selector {
 .btn:hover:enabled {
   background: #512da8;
 }
+
+
 
 /* Responsive */
 @media (max-width: 900px) {
